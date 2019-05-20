@@ -1,5 +1,5 @@
 ### General Resources
 
-*  [Adobe Sign - Main Suppor](https://helpx.adobe.com/support/sign.html)
+*  [Adobe Sign - Main Support](https://helpx.adobe.com/support/sign.html)
 
 
