@@ -78,3 +78,14 @@ The link URL should look something like this:
 
 OK … got all that?  Next we look at what this process will look like for your customers.
 
+####
+####
+#### What does this oAuth process look like for your customers?
+
+When your customer goes through the oAuth process starting by clicking the link in your app, they will start by being taken to the main login page for Adobe Sign.
+
+They might already have that browser logged into their account but if not they need to log in:
+
+![image5](http://drive.google.com/uc?export=view&id=1L0RnfTHb5XqCVyX2HTarhWKdmX8U0ik2)
+
+![image6](http://drive.google.com/uc?export=view&id=1LI2XG3Z8e5RWXzrr1t4Hztz46JADtcDI)
