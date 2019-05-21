@@ -37,3 +37,17 @@ Find the app, select and click "Configure oAuth for application".
 Account > Adobe Sign API  > API Applications > AppName > Configure oAuth for application
 
 ![image](http://drive.google.com/uc?export=view&id=1KzAGIsW-8_E9M7Kar4DU5mcCbOBocxMg)
+
+You now need to add the permissions and “scopes” that will be needed by your application when it interacts with the Adobe Sign APIs, as well as the **_redirect URI_** that will be a URL available publicly (internet) on your infrastructure that can capture the account details and code for from the request for oAuth process driven by the link that you will eventually add to your application or platform to get it connected to the customer’s Adobe Sign account.
+
+The process of capturing this data and making the API call to get the “refresh" and “access” tokens for API use by your platform/application will need to be done through code on your redirect URI page housed on your servers.
+
+These “scopes” are not determining what the token will be, but are setting the “upper limit” or scope of what can be requested. 
+
+The request URL you use to link your customer’s instance of your application to the Adobe Sign account will contain the parameters for the permissions and level (self,group, or account) that your API integration will need for the actions you utilize in your integration.
+
+Note that only Group Admins can approve OAuth requests that use the ":group" scope modifier, and only Account Admins can approve OAuth requests that use the ":account" scope modifier.
+
+You may not (and probably don’t) need all the possible permissions available on this configuration, but during dev cycles, before you have decided how much API interaction with Adobe Sign your app may need to leverage, it may be best to enable everything since it is relatively easy to come back later and adjust.
+
+When you adjust later, please limit the scopes that you enable to the minimum set necessary for your application, which is one of the requirements for Certification.
