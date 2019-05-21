@@ -68,3 +68,13 @@ The link URL should look something like this:
 
 >https://secure.echosign.com/public/oauth?redirect_uri=https://your-oAuthInteraction-Server/your-oAuth-Page.html&response_type=code&client_id=CBJCHBCAABAAAbjw-szq8_Pg2Ljg7_b_vuaYiCAK1i4q&state=uhuhygtf576534&scope=user_read:account+user_write:account+user_login:account+agreement_read:account+agreement_write:account+agreement_send:account+widget_read:account+widget_write:account+library_read:account+library_write:account+workflow_read:account+workflow_write:account
 
+##### How this breaks down:
+1.  Base URL to start process - May seem obvious but we had to say it.**_For partner apps this should NOT contain the "shard" of an account (na1, na2, eu1, jp1, etc.)_**
+2.  Redirect URI "redirect_uri="- This comes from your application (configured on the app in your Adobe Sign developers account) oAuth settings. **_This must match the configured URI exactly. If not you will get errors._**
+3.  Response Type “&response_type=code” -  This just tells the process you’re looking for the oAuth code on the redirect URI once your customer logs in and accepts the auth permissions. - Use this exactly as quoted (no replacement for your scenario)
+4.  Client ID "&client_id=" - tells Adobe Sign what application your customer is requesting a token for. (The one for your app/platform)
+5.  State "q&state=" - This can be used to pass a unique ID that will be “passed through” to the redirect URI which is typically a unique identifier for the instance of your application so your system knows which client/instance requested the token and so where to save it inside your platform.
+6. Scopes and permissions "&scope=" - This is the “good stuff” that tells Adobe Sign what permissions are needed for the token your app will need for all the wonderful things your platform can do for them when interacting with the Sign API. 
+
+OK … got all that?  Next we look at what this process will look like for your customers.
+
