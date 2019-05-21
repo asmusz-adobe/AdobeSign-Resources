@@ -36,4 +36,4 @@ Find the app, select and click "Configure oAuth for application".
 
 Account > Adobe Sign API  > API Applications > AppName > Configure oAuth for application
 
-![image](https://drive.google.com/open?id=1KzAGIsW-8_E9M7Kar4DU5mcCbOBocxMg)
+![image](http://drive.google.com/uc?export=view&id=1KzAGIsW-8_E9M7Kar4DU5mcCbOBocxMg)
