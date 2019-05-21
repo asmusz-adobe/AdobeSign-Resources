@@ -22,6 +22,12 @@ Fill out as shown:
 
 ![image](http://drive.google.com/uc?export=view&id=1L3MnC-eIwTxhx5nOfO3rg-LAOBH4aZgR)
 
+Your new partner application will be “uncertified” until you have gone through the partner certification process but you will be able to test the process of getting Adobe Sign accounts connected to it by changing some settings in the test/customer account. These details will be discussed in another note.
+
+Ok … now we can move on to Configuring oAuth for your new Adobe Sign app!
+
 ####
 ####
-#### 
+#### Configure oAuth for the new app
+### What permissions and access level do you need for your application?
+
