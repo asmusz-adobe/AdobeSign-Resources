@@ -38,11 +38,11 @@ Account > Adobe Sign API  > API Applications > AppName > Configure oAuth for app
 
 ![image](http://drive.google.com/uc?export=view&id=1KzAGIsW-8_E9M7Kar4DU5mcCbOBocxMg)
 
-You now need to add the permissions and “scopes” that will be needed by your application when it interacts with the Adobe Sign APIs, as well as the **_redirect URI_** that will be **_a URL available publicly (internet) on your infrastructure that can capture the account details and code for from the request for oAuth process driven by the link that you will eventually add to your application or platform to get it connected to the customer’s Adobe Sign account._**
+You now need to add the permissions and “scopes” that will be used by your application when it interacts with the Adobe Sign APIs, as well as the **_redirect URI_** that will be **_a URL available publicly (internet) on your infrastructure that can capture the account details and code for from the request for oAuth process driven by the link that you will eventually add to your application or platform to get it connected to the customer’s Adobe Sign account._**
 
 The process of capturing this data and making the API call to get the “refresh" and “access” tokens for API use by your platform/application will need to be done through code on your redirect URI page housed on your servers.
 
-These “scopes” are not determining what the token will be, but are setting the “upper limit” or scope of **_what can be requested._** 
+These “scopes” are not determining what the token will be, but are setting the “upper limit” or "scope" of **_what can be requested._** 
 
 The request URL you use to link your customer’s instance of your application to the Adobe Sign account will contain the parameters for the permissions and level (self,group, or account) that your API integration will need for the actions you utilize in your integration.
 
@@ -55,3 +55,17 @@ When you adjust later, please limit the scopes that you enable to the minimum se
 ![image](http://drive.google.com/uc?export=view&id=1IVEu6A0XY15I6oAFgjXuF2t-e0XyoOvs)
 
 Once you have this set as you’d like it, click “Save” and then we can talk about how to add a link in your app to start the oAuth process (getting oAuth tokens to link your customer’s app/platform instance to their Adobe Sign account).
+
+####
+####
+#### Add link to your platform for oAuth request
+
+In your app you will need a URL link for your customers to start the oAuth request process.
+
+This link will give the parameters you’ll need to pass to the oAuth process.
+
+The link URL should look something like this:
+
+```
+https://secure.echosign.com/public/oauth?redirect_uri=https://your-oAuthInteraction-Server/your-oAuth-Page.html&response_type=code&client_id=CBJCHBCAABAAAbjw-szq8_Pg2Ljg7_b_vuaYiCAK1i4q&state=uhuhygtf576534&scope=user_read:account+user_write:account+user_login:account+agreement_read:account+agreement_write:account+agreement_send:account+widget_read:account+widget_write:account+library_read:account+library_write:account+workflow_read:account+workflow_write:account
+```
