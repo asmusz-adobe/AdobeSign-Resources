@@ -38,7 +38,7 @@ Account > Adobe Sign API  > API Applications > AppName > Configure oAuth for app
 
 ![image](http://drive.google.com/uc?export=view&id=1KzAGIsW-8_E9M7Kar4DU5mcCbOBocxMg)
 
-You now need to add the permissions and “scopes” that will be needed by your application when it interacts with the Adobe Sign APIs, as well as the **_redirect URI_** that will be a URL available publicly (internet) on your infrastructure that can capture the account details and code for from the request for oAuth process driven by the link that you will eventually add to your application or platform to get it connected to the customer’s Adobe Sign account.
+You now need to add the permissions and “scopes” that will be needed by your application when it interacts with the Adobe Sign APIs, as well as the **_redirect URI_** that will be **_a URL available publicly (internet) on your infrastructure that can capture the account details and code for from the request for oAuth process driven by the link that you will eventually add to your application or platform to get it connected to the customer’s Adobe Sign account._**
 
 The process of capturing this data and making the API call to get the “refresh" and “access” tokens for API use by your platform/application will need to be done through code on your redirect URI page housed on your servers.
 
