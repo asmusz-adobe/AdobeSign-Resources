@@ -29,5 +29,5 @@ Ok … now we can move on to Configuring oAuth for your new Adobe Sign app!
 ####
 ####
 #### Configure oAuth for the new app
-### What permissions and access level do you need for your application?
+##### What permissions and access level do you need for your application?
 
