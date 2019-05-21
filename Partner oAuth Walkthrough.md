@@ -1,0 +1,4 @@
+### Setting up a partner oAuth application
+####
+####
+1. Read the [Adobe Sign oAuth doc](https://secure.echosign.com/public/static/oauthDoc) Start here to get an “overview” but don’t stress as there are more details the below to help walk you through it.
