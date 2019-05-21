@@ -130,9 +130,9 @@ in our example:
 
 We have:
 
-code = CBNCKBAAHBCAABAApvoU1TLVOj_GuGynhtExjJbQNOmst9KP
-api_access_point = https://api.na1.echosign.com/
-state = uhuhygtf576534
+>code = CBNCKBAAHBCAABAApvoU1TLVOj_GuGynhtExjJbQNOmst9KP
+>api_access_point = https://api.na1.echosign.com/
+>state = uhuhygtf576534
 
 In addition to these you will need the Client/Application ID and “secret” from the partner app oAuth config page in your developer account:
 
@@ -141,7 +141,7 @@ In addition to these you will need the Client/Application ID and “secret” fr
 Remember when we saw that while doing the oAuth configuration?
 
 The POST call needs to hit that:
-$api_access_point/oauth/token end point
+`$api_access_point/oauth/token end point`
 
 So in this case (where the customer’s account is on na1) we need to hit:
 
