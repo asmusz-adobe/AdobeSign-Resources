@@ -88,4 +88,12 @@ They might already have that browser logged into their account but if not they n
 
 ![image5](http://drive.google.com/uc?export=view&id=1L0RnfTHb5XqCVyX2HTarhWKdmX8U0ik2)
 
+Next they’ll be presented with the permissions needed for your app as defined by the URL parameters in your starting link:
+
 ![image6](http://drive.google.com/uc?export=view&id=1LI2XG3Z8e5RWXzrr1t4Hztz46JADtcDI)
+
+And next, they’ll be “redirected” to …… wait for it …… Yes!!     The redirect URI defined on your server.  😉
+
+In the URL will be a number of things your system will need to get the refresh and access tokens that your app/platform will need to start making calls against the API.
+
+The URL with those extra bits will look something like this:
