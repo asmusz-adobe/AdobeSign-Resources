@@ -53,3 +53,5 @@ You may not (and probably don’t) need all the possible permissions available o
 When you adjust later, please limit the scopes that you enable to the minimum set necessary for your application, which is one of the requirements for Certification.
 
 ![image](http://drive.google.com/uc?export=view&id=1IVEu6A0XY15I6oAFgjXuF2t-e0XyoOvs)
+
+Once you have this set as you’d like it, click “Save” and then we can talk about how to add a link in your app to start the oAuth process (getting oAuth tokens to link your customer’s app/platform instance to their Adobe Sign account).
