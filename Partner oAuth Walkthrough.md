@@ -7,6 +7,13 @@
 4. Add link to your platform for oAuth request This is how your customer’s will need to start the oAuth process.
 5. What does this oAuth process look like for your customers? More detail on the end-user experience, and some code/process discussion.
 6. What’s needed on the “redirect URI” page? More “nuts and bolts” for the developers.
+####
+####
+#### Create “partner" app in your dev account
 
+To start you will need a [developers account on Adobe Sign](https://acrobat.adobe.com/us/en/why-adobe/developer-form.html).
 
+Once you have the account set-up, you will need to log in and create a new partner application.
+
+Account > Adobe Sign API  > API Applications > +
 ![image](http://drive.google.com/uc?export=view&id=1mvav1zi-aXa7P9zVKv4YHMI4JTfjrvUO)
