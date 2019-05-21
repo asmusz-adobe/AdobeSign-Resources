@@ -17,3 +17,4 @@ Once you have the account set-up, you will need to log in and create a new partn
 
 Account > Adobe Sign API  > API Applications > +
 ![image](http://drive.google.com/uc?export=view&id=1mvav1zi-aXa7P9zVKv4YHMI4JTfjrvUO)
+
