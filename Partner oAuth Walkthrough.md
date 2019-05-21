@@ -111,3 +111,102 @@ api_access_point=https%3A%2F%2Fapi.na1.echosign.com%2F — This is the encoded U
 &web_access_point=https%3A%2F%2Fsecure.na1.echosign.com%2F  — This is the “web access” URL (where your customer can log in)
 
 Great!! you may say but I still don’t have a token? 
+
+True… please go to the next section to see a discussion of what the redirect URI page on your server needs to do.
+
+####
+####
+####  What’s needed on the “redirect URI” page?
+
+Ok …. whew … that was a lot and we still don’t have a token once we’ve been re-directed to that darn redirect URI page.
+
+Yup, you still have some work.
+
+As mentioned the params have all been passed to your page though on the URL so we can start with grabbing them.
+
+in our example:
+
+>https://your-oauthinteraction-server/your-oAuth-Page.html?code=CBNCKBAAHBCAABAApvoU1TLVOj_GuGynhtExjJbQNOmst9KP&api_access_point=https%3A%2F%2Fapi.na1.echosign.com%2F&state=uhuhygtf576534&web_access_point=https%3A%2F%2Fsecure.na1.echosign.com%2F
+
+We have:
+
+code = CBNCKBAAHBCAABAApvoU1TLVOj_GuGynhtExjJbQNOmst9KP
+api_access_point = https://api.na1.echosign.com/
+state = uhuhygtf576534
+
+In addition to these you will need the Client/Application ID and “secret” from the partner app oAuth config page in your developer account:
+
+![image7](http://drive.google.com/uc?export=view&id=12M6qmBQJHQ3tg0VLV3Nk288ReraMCefY)
+
+Remember when we saw that while doing the oAuth configuration?
+
+The POST call needs to hit that:
+$api_access_point/oauth/token end point
+
+So in this case (where the customer’s account is on na1) we need to hit:
+
+https://secure.na1.echosign.com/oauth/token
+
+This REST call has one header param:  Content-Type: application/x-www-form-urlencoded
+
+In the body are a bunch of other params which you can construct from the data you now have from the URL plus your client ID and “secret”.
+
+In POSTMAN (A great tool I highly recommend) this call would look something like this:
+
+![image8](http://drive.google.com/uc?export=view&id=1ZA-ewTwf85ElSepjs_n8LX9CpNgHB0Bc)
+
+The “raw” call looks like:
+
+>POST /oauth/token HTTP/1.1
+Host: secure.na1.echosign.com
+Content-Type: application/x-www-form-urlencoded
+Cache-Control: no-cache
+
+code=CBNCKBAAHBCAABAAOhqFxpG1VorkQqCpTcsWQZrdlPAe6p4v&client_id=CBJCHBCAABAA-bAGKL5EGoAVa0uQnFR_k--pCMoA589W&client_secret=HCLtG15GhovoBD2HBlPJ7su5FJ7tMkHd&redirect_uri=https%3A%2F%2Faaronsmusz.com%2Foauth%2FoauthSuccess_app222.php&grant_type=authorization_code
+
+The JSON response to this call will look something like this:
+
+```JSON
+{
+    "access_token": "3AAABLblqZhDuw8mHJD5axQYRFV36l4U1A3csEcBxYcf9tr6OGtXghh8mGFNbEm9zulVHavW99-yDijJONs3syC49qiAtX-FA",
+    "refresh_token": "3AAABLblqZhCxjXUfsx_pz44l8opXqFPXVUUPjr72JJ-uoBMvpo-xMgwiX_j6AUIfbskIaYyC34M*",
+    "token_type": "Bearer",
+    "expires_in": 3600
+}
+```
+
+Ok !!! We finally have a token ! Woooooooot !!
+
+Now we can find this Customer’s instance using the state ID and store the tokens.
+
+The “refresh” token is used to get new “access” tokens, but “Why?" you mays ask? 
+
+The access token only lives for one hour(expires_in: 3600) so at least once an hour you need to make another call using the refresh token to get a new access token.
+
+Again we need to hit that:
+$api_access_point = https://api.na1.echosign.com
+But now we need to POST to:
+
+https://api.na1.echosign.com/oauth/refresh
+
+This call looks like this:
+
+>POST /oauth/refresh HTTP/1.1
+Host: api.na1.echosign.com
+Content-Type: application/x-www-form-urlencoded
+Cache-Control: no-cache
+
+refresh_token=3AAABLblqZhCxjXUfsx_pz44l8opXqFPXVUUPjr72JJ-uoBMvpo-xMgwiX_j6AUIfbskIaYyC34M*&client_id=CBJCHBCAABAA-
+>bAGfU0EGoAVa0uQnFR_k--pCMoA589W&client_secret=HCLtG15GhovoBD2HBlKF4su5FJ7tMkHd&grant_type=refresh_token
+
+Ok ….FYI …. The “refresh” token will also expire but it works a bit differently.
+This token expires after 60 days, but every time you use the “refresh" token to get a new “access" token, you reset the expiration on the “refresh” token to 60 days from that point.  Cool?
+
+If you are concerned about slow/no activity causing the “refresh” token to expire, you can set up a job that just refreshes the access token every 50 days or so if the date is getting “stale”. 
+
+Once you have the tokens, and you know how to get new access tokens using the refresh token you can redirect the customer back to their instance of your app and ask them if they want to take a break for coffee ヽ(•‿•)ノ.
+
+This concludes our crash course on oAuth and Adobe Sign!  
+Hope you’re having a great day!
+
+
