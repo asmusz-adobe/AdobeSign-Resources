@@ -97,3 +97,17 @@ And next, they’ll be “redirected” to …… wait for it …… Yes!!     T
 In the URL will be a number of things your system will need to get the refresh and access tokens that your app/platform will need to start making calls against the API.
 
 The URL with those extra bits will look something like this:
+
+>https://your-oauthinteraction-server/your-oAuth-Page.html?code=CBNCKBAAHBCAABAApvoU1TLVOj_GuGynhtExjJbQNOmst9KP&api_access_point=https%3A%2F%2Fapi.na1.echosign.com%2F&state=uhuhygtf576534&web_access_point=https%3A%2F%2Fsecure.na1.echosign.com%2F
+
+What are all those extra bit about?
+
+code=CBNCKBAAHBCAABAApvoU1TLVOj_GuGynhtExjJbQNOmst9KP — This is the code your system will use to make the actual API call to get those tokens. You need to use this fairly immediately as it’s only valid for 5 minutes.
+
+api_access_point=https%3A%2F%2Fapi.na1.echosign.com%2F — This is the encoded URL which is the base URL for the account where you will need to start all your REST calls for getting tokens, sending agreements and all the other cool stuff.
+
+&state=uhuhygtf576534 — This is that “state” string your system gave us so you could know which instance of your application/platform made this request.  You need this so you know where to take your customer “back” to and so you know which instance of your app you need to store the tokens for.
+
+&web_access_point=https%3A%2F%2Fsecure.na1.echosign.com%2F  — This is the “web access” URL (where your customer can log in)
+
+Great!! you may say but I still don’t have a token? 
