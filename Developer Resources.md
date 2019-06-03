@@ -7,7 +7,8 @@
 *  [Webhook APIs](https://www.adobe.io/apis/documentcloud/sign/docs.html#!adobedocs/adobe-sign/master/events.md)
 *  [For REST based integration testing and development, I highly recommend postman](http://view.adobe.com/viewer/5c917dbaf7794d1557d55ee4?iid=5c87ee0081171765cf741595)
 *  [REST V6 POSTMAN Collection](http://view.adobe.com/viewer/5c917dbaf7794d1557d55ee4?iid=5c917250659e931c7960d001)
-*  [How to Create an integration Key](https://helpx.adobe.com/sign/kb/how-to-create-an-integration-key.html)
+*  [Use an Integration Key during development and testing](https://github.com/skaboy71/AdobeSign-resources/blob/master/oAuth_vs_integration_key.md)
+*  
 ####
 #### Devkits
 *  [Main Adobe Sign page on GitHub](https://github.com/adobe-sign)
