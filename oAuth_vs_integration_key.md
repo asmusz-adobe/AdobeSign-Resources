@@ -12,7 +12,7 @@ Simple, follow the instructions [here](https://helpx.adobe.com/sign/kb/how-to-cr
 
 You may need support to enable your account to use the integration key.  If so, please email support@echosign.com with the email address of the admin user in your account and ask.
 
-### How do I USe it?
+### How do I use it?
 This is also really straight forward.  You simply replace the "token" in your calls.
 
 As an example, for REST V5 you pass an "Access-Token" header parameter with all calls made against the end-points. Simply use the integration key as the value.  
