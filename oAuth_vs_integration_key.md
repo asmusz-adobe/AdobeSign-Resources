@@ -13,9 +13,9 @@ You may need support to enable your account to use the integration key.  If so, 
 ### How do I use it?
 This is also really straight forward.  You simply replace the "token" in your calls.
 
-As an example, for REST V5 you pass an "Access-Token" header parameter with all calls made against the end-points. Simply use the integration key as the value.  
+As an example, for REST V5 you pass an "Access-Token" header parameter with all calls made against the end-points. Just use the integration key as the value.  
 
-For V6 of our API, you use an "Authorization" parameter with the value as "Bearer {{token}}" so in this case simply replace {{token}} with your integration key.
+For V6 of our API, you use an "Authorization" parameter with the value as "Bearer {{token}}" so in this case you only need to replace {{token}} with your integration key.
 
 #### REMINDER FOR PARTNER DEVELOPERS
 If you are developing a partner app so your customers can use Adobe Sign functionality from your app or platform, eventually, for *certification*, __you WILL BE REQUIRED to use oAuth__ so please start thinking about how you'll need to handle this process. For more info on oAuth, please see my oAuth walkthrough for partner integration development [here](https://github.com/skaboy71/AdobeSign-resources/blob/master/Partner%20oAuth%20Walkthrough.md).
