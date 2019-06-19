@@ -1,3 +1,5 @@
+####  What is it?
+
 Of course you can read the Wikipedia definition here, but I’m going to attempt to make it a bit more conceptual and simple. There are many legal descriptions under many different national, and international laws but I’m not a lawyer and that’s really boring stuff anyway.
 
 Before we get too far into “the weeds” on what electronic signatures are, lets talk about how they work, or what they do.
