@@ -11,3 +11,7 @@
 *  [What is a "digital signature"?](https://acrobat.adobe.com/us/en/sign/capabilities/digital-signatures-faq.html)
 
 *  [What is a "cloud based" digital signature?](https://acrobat.adobe.com/content/dam/doc-cloud/en/pdfs/adobe_cloud_signature_solution_brief_ue.pdf)
+
+*  [How do I include a document/file that only "internal" signers will see along with my contract or other agreement to be signed by external parties?](https://helpx.adobe.com/sign/using/limited-document-visibility.html)
+
+
