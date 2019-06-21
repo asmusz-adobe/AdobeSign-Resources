@@ -6,13 +6,13 @@
 
 *  [What is a "digital signature"?](https://acrobat.adobe.com/us/en/sign/capabilities/digital-signatures-faq.html)
 
+*  [What is a "cloud based" digital signature?](https://acrobat.adobe.com/content/dam/doc-cloud/en/pdfs/adobe_cloud_signature_solution_brief_ue.pdf)
+
 *  [Why do you require an Email Address for Adobe Sign?](https://github.com/skaboy71/AdobeSign-resources/blob/master/Answers/Why_Email_address%3F.md)
 
 *  [What additional 2nd Factor Signer Authentication can be used with Adobe Sign?](https://helpx.adobe.com/sign/using/signer-identity-authentication-methods.html)
 
 *  [Can you accept Credit Card payments with Adobe Sign?](https://helpx.adobe.com/sign/using/collect-online-payments.html)
-
-*  [What is a "cloud based" digital signature?](https://acrobat.adobe.com/content/dam/doc-cloud/en/pdfs/adobe_cloud_signature_solution_brief_ue.pdf)
 
 *  [How do I include a document/file that only "internal" signers will see along with my contract or other agreement to be signed by external parties when using Adobe Sign?](https://helpx.adobe.com/sign/using/limited-document-visibility.html)
 
