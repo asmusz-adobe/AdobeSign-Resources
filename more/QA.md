@@ -18,4 +18,6 @@
 
 *  [Can I use Adobe Sign with SharePoint 365?](https://helpx.adobe.com/sign/using/microsoft-sharepoint-installation-guide.html)
 
+*  [Is there a "pre-built" integration for xxxxxxx(your app or platform here)](https://www.adobeexchange.com/documentcloud.html)
+
 
