@@ -22,5 +22,7 @@
 
 *  [What does the "architecture" and security/compliance look like with Adobe Sign?](https://www.adobe.com/content/dam/acom/en/security/pdfs/adobe-sign-technical-overview-ue.pdf)
 
+*  [Are Electronic Signatures legal and binding?](https://acrobat.adobe.com/us/en/sign/capabilities/electronic-signature-legality.html)
+
 *  [Where are Electronic Signatures accepted as legal?](https://acrobat.adobe.com/content/dam/doc-cloud/en/pdfs/document-cloud-global-guide-electronic-signature-law-ue.pdf)
 
