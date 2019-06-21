@@ -14,4 +14,8 @@
 
 *  [How do I include a document/file that only "internal" signers will see along with my contract or other agreement to be signed by external parties?](https://helpx.adobe.com/sign/using/limited-document-visibility.html)
 
+*  [Can I use Adobe Sign with Microsoft Flow and/or Power Apps?](https://helpx.adobe.com/sign/using/microsoft-powerapps-and-flow-integration.html)
+
+*  [Can I use Adobe Sign with SharePoint 365?](https://helpx.adobe.com/sign/using/microsoft-sharepoint-installation-guide.html)
+
 
