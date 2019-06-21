@@ -1,5 +1,7 @@
 ## Commonly asked Questions and Answers
 
+*  ["Official" Adobe Sign FAQ?](https://helpx.adobe.com/sign/faq.html)
+
 *  [What is an Electronic Signature?](https://github.com/skaboy71/AdobeSign-resources/blob/master/Answers/e-sig-definition.md)
 
 *  [What is a "digital signature"?](https://acrobat.adobe.com/us/en/sign/capabilities/digital-signatures-faq.html)
