@@ -14,7 +14,10 @@ That’s pretty much it!  See, I told you I’d make it simple! 🙂
 
 Now … some/most laws pertaining to e-signature add some additional things, which mainly consist of these additional safeguards:
 
-A way to show that the “agreement” between parties has not been changed in any material way from the “original”.
-A documented “chain of events” that shows the steps of the process of obtaining said signatures.
-Additional “Identity Verification” to help prove that the persons involved were “who they said they were”.
-Even when talking about government regulations such as CFR 21 part 11 (FDA regulations for “life sciences” and drug trials) There are additional things to consider but they comprise a list of additional “processes” related to the points above. 
+*  A way to show that the “agreement” between parties has not been changed in any material way from the “original”.
+
+*  A documented “chain of events” that shows the steps of the process of obtaining said signatures.
+
+*  Additional “Identity Verification” to help prove that the persons involved were “who they said they were”.
+
+Even when talking about government regulations such as CFR 21 part 11 (FDA regulations for “life sciences” and drug trials) there are additional things to consider but they comprise a list of additional “processes” related to the points above. 
