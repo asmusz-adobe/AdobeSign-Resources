@@ -11,7 +11,7 @@
 
 ### Japan
 
-*  Amazon Web Services - Tokyo
+*  Amazon Data Services Japan - Tokyo
 
 ### Australia
 
