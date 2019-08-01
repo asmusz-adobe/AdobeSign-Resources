@@ -28,6 +28,6 @@
 
 *  [Can I use Adobe Sign for my CFR 21 part 11 related processes?](https://helpx.adobe.com/sign/kb/Is-Adobe-Sign-21-CFR-Part-11-Compliant.html)
 
-*  [What are the applicable eSignature laws in xxxx (Country)](https://acrobat.adobe.com/content/dam/doc-cloud/en/pdfs/document-cloud-global-guide-electronic-signature-law-ue.pdf)
+*  [What are the applicable eSignature laws in xxxx (Country)?](https://acrobat.adobe.com/content/dam/doc-cloud/en/pdfs/document-cloud-global-guide-electronic-signature-law-ue.pdf)
 
 
