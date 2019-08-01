@@ -1,8 +1,8 @@
 ### North America
 
-*  NA1 Amazon Web Services - Ashburn Virginia
-*  NA2 Amazon Web Services - Portland Oregon
-*  NA3 MicrosoftS Azure - Ashburn Virginia
+*  Amazon Web Services - Ashburn Virginia
+*  Amazon Web Services - Portland Oregon
+*  MicrosoftS Azure - Ashburn Virginia
 
 ### EU Region
 
