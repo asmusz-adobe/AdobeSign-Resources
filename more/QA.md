@@ -8,6 +8,8 @@
 
 *  [What is a "digital signature"?](https://acrobat.adobe.com/us/en/sign/capabilities/digital-signatures-faq.html)
 
+*  [What is the "Audit Trail", what is it for and how do signer's access it?](https://helpx.adobe.com/sign/using/audit-reports-transaction-history.html)
+
 *  [What is a "cloud based" digital signature?](https://acrobat.adobe.com/content/dam/doc-cloud/en/pdfs/adobe_cloud_signature_solution_brief_ue.pdf)
 
 *  [Why do you require an Email Address for Adobe Sign?](https://github.com/skaboy71/AdobeSign-resources/blob/master/Answers/Why_Email_address%3F.md)
