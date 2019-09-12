@@ -5,7 +5,7 @@
 2. Create a “partner" app in your dev account The necessary first action.[->](https://github.com/skaboy71/AdobeSign-resources/blob/master/Partner%20oAuth%20Walkthrough.md#create-partner-app-in-your-dev-account)
 3. Configure oAuth for the new app What permissions and access level do you need for your application?[->](https://github.com/skaboy71/AdobeSign-resources/blob/master/Partner%20oAuth%20Walkthrough.md#configure-oauth-for-the-new-app)
 4. Add link to your platform for oAuth request This is how your customer’s will need to start the oAuth process.[->](https://github.com/skaboy71/AdobeSign-resources/blob/master/Partner%20oAuth%20Walkthrough.md#add-link-to-your-platform-for-oauth-request)
-5. What does this oAuth process look like for your customers? More detail on the end-user experience, and some code/process discussion.
+5. What does this oAuth process look like for your customers? More detail on the end-user experience, and some code/process discussion.[->](https://github.com/skaboy71/AdobeSign-resources/blob/master/more/Partner%20oAuth%20Walkthrough.md#what-does-this-oauth-process-look-like-for-your-customers)
 6. What’s needed on the “redirect URI” page? More “nuts and bolts” for the developers.
 ####
 ####
