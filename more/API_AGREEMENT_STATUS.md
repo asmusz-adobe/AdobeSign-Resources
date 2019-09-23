@@ -24,4 +24,4 @@ Most states relate to specific Adobe Sign ["roles"](https://helpx.adobe.com/sign
 
 *  __'WAITING_FOR_FAXIN'__ = This is a deprecated status related to Fax in feature no longer offered.
 
-*  __'WAITING_FOR_VERIFICATION'__ = 
+*  __'WAITING_FOR_VERIFICATION'__ = OLD status same as WIGET_WAITING_FOR_VERIFICATION
