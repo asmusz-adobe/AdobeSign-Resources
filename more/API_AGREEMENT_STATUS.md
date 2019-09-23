@@ -70,9 +70,9 @@ PDF can be found [here](https://documentcloud.adobe.com/link/track?uri=urn%3Aaai
 
 *  __'RECALLED'__ = When agreement is cancelled by sender -- Status changes to ABORTED
 
-*  __'REJECTED'__ = When agreement is rejected by signer -- Status changes to ABORTEDE
+*  __'REJECTED'__ = When agreement is rejected by signer -- Status changes to ABORTED
 
-*  __'XPIRED'__ = When some custom expiry is set by sender and agreement reached that date -- Status changes to EXPIRED
+*  __'EXPIRED'__ = When some custom expiry is set by sender and agreement reached that date -- Status changes to EXPIRED
 
 *  __'EXPIRED_AUTOMATICALLY'__ = When agreement is expired automatically -- Status changes to EXPIRED
 
