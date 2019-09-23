@@ -9,7 +9,8 @@ PDF can be found [here](https://documentcloud.adobe.com/link/track?uri=urn%3Aaai
 *  __'OUT_FOR_FORM_FILLING'__ = waiting for "form filler" recipient to fill out data in fields (non-signer)
 *  __'OUT_FOR_APPROVAL'__ = waiting for "Approver" to approve (non-signer)
 *  __'AUTHORING'__ = agreement not yet finished with "authoring" so not yet sent to 1st recipient
-*  __'CANCELLED'__ = cancelled(by sender) OR rejected(by recipient) 
+*  __'ABORTED'__ = cancelled(by sender) OR rejected(by recipient)
+*  __'CANCELLED'__ = cancelled(by sender) OR rejected(by recipient) -- Legacy status now = ABORTED
 *  __'SIGNED'__ = completed "signed"
 *  __'APPROVED'__ = completed "approved"
 *  __'DELIVERED'__ = completed by "Certified Recipient"
