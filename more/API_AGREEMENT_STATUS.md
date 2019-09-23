@@ -1,6 +1,7 @@
 ## API Related agreement "Statuses"
 
 Most states relate to specific Adobe Sign ["roles"](https://helpx.adobe.com/sign/using/set-up-signer-approver-roles.html)
+PDF can be found [here](https://documentcloud.adobe.com/link/track?uri=urn%3Aaaid%3Ascds%3AUS%3A4eec32fd-527e-4133-9666-08fb35286d7e).
 
 *  __'OUT_FOR_SIGNATURE'__ = Waiting for Signature
 *  __'OUT_FOR_DELIVERY'__ = Waiting for acceptance by "Certified Recipient" (non-signer)
