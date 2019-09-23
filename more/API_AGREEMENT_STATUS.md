@@ -12,23 +12,16 @@ Most states relate to specific Adobe Sign ["roles"](https://helpx.adobe.com/sign
 *  __'SIGNED'__ = completed "signed"
 *  __'APPROVED'__ = completed "approved"
 *  __'DELIVERED'__ = completed by "Certified Recipient"
-
 *  __'ACCEPTED'__ = completed by "Acceptor"
-
 *  __'FORM_FILLED'__ = Filled out by "Form filler"
-
 *  __'EXPIRED'__ = agreement has passed "Expiration Date/Time"
-
 *  __'ARCHIVED'__ = Applies only to files "archived" to Adobe Sign for secure storage
-
 *  __'PREFILL'__ = waiting to be pre-filled by sender
-
 *  __'WIDGET_WAITING_FOR_VERIFICATION'__ = If email verification is on, signed web-forms(widgets) must have signer verify email address provided during signing before agreement is "complete"/fully executed
+*  __'DRAFT'__ = From an API perspective think of this as a "stub record" state where no doc conversion has taken place so there is not yet an "authoring" or signing experience but you can change any related data before starting the steps to create an agreement. There is an agreement ID (stubbed) and associated data but nothing else has happened.  Agreements in this state can be deleted without incurring a transaction.
 
-*  __'DRAFT'__
+*  __'DOCUMENTS_NOT_YET_PROCESSED'__ = request has been made to create an agreement but Adobe Sign is still working on processing the docs for the agreement.
 
-*  __'DOCUMENTS_NOT_YET_PROCESSED'__
+*  __'WAITING_FOR_FAXIN'__ = This is a deprecated status related to Fax in feature no longer offered.
 
-*  __'WAITING_FOR_FAXIN'__
-
-*  __'WAITING_FOR_VERIFICATION'__
+*  __'WAITING_FOR_VERIFICATION'__ = 
