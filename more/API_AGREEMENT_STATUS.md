@@ -25,7 +25,7 @@ PDF can be found [here](https://documentcloud.adobe.com/link/track?uri=urn%3Aaai
 
 *  __'WAITING_FOR_FAXIN'__ = This is a deprecated status related to Fax in feature no longer offered.
 
-*  __'WAITING_FOR_VERIFICATION'__ = OLD status same as WIGET_WAITING_FOR_VERIFICATION
+*  __'WAITING_FOR_VERIFICATION'__ = OLD status same as WIDGET_WAITING_FOR_VERIFICATION
 
 
 ## EVENTS:
