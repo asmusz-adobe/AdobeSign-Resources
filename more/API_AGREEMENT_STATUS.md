@@ -31,8 +31,8 @@ PDF can be found [here](https://documentcloud.adobe.com/link/track?uri=urn%3Aaai
 
 ## EVENTS:
 
-| Event Name                   | Description of Event           | Status Change                      |
-| :--------------------------- | :----------------------------- | :--------------------------------- |
+| Event Name                 | Description of Event           | Status Change                      |
+| :------------------------- | :----------------------------- | :--------------------------------- |
 | 'CREATED' | When an agreement or Draft is created | A new resource with DRAFT status or AUTHORING or with one of the OUT_FOR_ status depending on the participants roles. |
 | 'AGREEMENT_MODIFIED' | Agreement modified by sender modify document in flight | No change in the status. |
 | 'USER_ACK_AGREEMENT_MODIFIED' | When signer acknowledge modification before signing | No change in the status. |
