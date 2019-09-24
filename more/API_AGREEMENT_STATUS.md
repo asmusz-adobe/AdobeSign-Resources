@@ -7,7 +7,7 @@ PDF can be found [here](https://documentcloud.adobe.com/link/track?uri=urn%3Aaai
 
 |  Status                                  |  Status meaning/description
 | :--------------------------------------- | :-------------------------------------------------- |
-| 'OUT_FOR_SIGNATURE' | Waiting for Signature |
+| 'OUT_FOR_SIGNATURE' | Waiting for Signature by one or more Signers|
 | 'OUT_FOR_DELIVERY' | Waiting for acceptance by "Certified Recipient" (non-signer)|
 | 'OUT_FOR_ACCEPTANCE' | waiting for acceptance by "Acceptor" (non-signer) |
 | 'OUT_FOR_FORM_FILLING' | Waiting for "form filler" recipient to fill out data in fields (non-signer) |
