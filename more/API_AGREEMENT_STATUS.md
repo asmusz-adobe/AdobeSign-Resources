@@ -71,6 +71,6 @@ PDF can be found [here](https://documentcloud.adobe.com/link/track?uri=urn%3Aaai
 | 'AUTO_DELEGATED' | when auto delegation is on and agreement is delegated because of that | No change in status |
 | 'REPLACED_SIGNER' | Sender replaced current signer | No change in status |
 | 'VAULTED' | When agreement has vaulting enabled and a callback is sent to vault provided to perform vaulting | No change in status |
-| 'DOCUMENTS_DELETED' | When document retention policy is enabled and documents of an agreement is deleted | Agreement changes to CANCELLED only if it is not in a terminating state |
+| 'DOCUMENTS_DELETED' | When document retention policy is enabled and documents of an agreement are deleted | Agreement changes to CANCELLED only if it is not in a terminating state |
 | 'DRAFT_MODIFIED' | Agreement Draft has been modified | No change in status |
 
