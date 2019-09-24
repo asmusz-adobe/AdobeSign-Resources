@@ -26,7 +26,7 @@ PDF can be found [here](https://documentcloud.adobe.com/link/track?uri=urn%3Aaai
 | 'WIDGET_WAITING_FOR_VERIFICATION' | If email verification is on, signed web-forms(widgets) must have signer verify email address provided during signing before agreement is "complete"/fully executed |
 | 'DRAFT' | From an API perspective think of this as a "stub record" state where no doc conversion has taken place so there is not yet an "authoring" or signing experience but you can change any related data before starting the steps to create an agreement. There is an agreement ID (stubbed) and associated data but nothing else has happened.  Agreements in this state can be deleted without incurring a transaction. |
 | 'DOCUMENTS_NOT_YET_PROCESSED' | request has been made to create an agreement but Adobe Sign is still working on processing the docs for the agreement. |
-|'WAITING_FOR_FAXIN' | When agreement has been sent and forced WRITTEN. This status references legacy "Faxin" feature now deprecated but is still used for "written"(scna and upload) transactions |
+|'WAITING_FOR_FAXIN' | When agreement has been sent and forced WRITTEN. This status references legacy "Faxin" feature now deprecated but is still used for "written"(print, wet-sign, scan and upload) transactions |
 |'WAITING_FOR_VERIFICATION' | OLD status same as WIDGET_WAITING_FOR_VERIFICATION |
 
 ## EVENTS:
