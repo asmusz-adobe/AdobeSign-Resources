@@ -6,7 +6,7 @@ PDF can be found [here](https://documentcloud.adobe.com/link/track?uri=urn%3Aaai
 ## STATUSES
 
 |  Status                                  |  Status meaning/description
-| ---------------------------------------- | --------------------------------------------------- |
+| :--------------------------------------- | :-------------------------------------------------- |
 | 'OUT_FOR_SIGNATURE' | Waiting for Signature |
 | 'OUT_FOR_DELIVERY' | Waiting for acceptance by "Certified Recipient" (non-signer)|
 | 'OUT_FOR_ACCEPTANCE' | waiting for acceptance by "Acceptor" (non-signer) |
@@ -32,13 +32,13 @@ PDF can be found [here](https://documentcloud.adobe.com/link/track?uri=urn%3Aaai
 ## EVENTS:
 
 | Event Name                   | Description of Event           | Status Change                      |
-| ---------------------------- | ------------------------------ | ---------------------------------- |
+| :--------------------------- | :----------------------------- | :--------------------------------- |
 | 'CREATED' | When an agreement or Draft is created | A new resource with DRAFT status or AUTHORING or with one of the OUT_FOR_ status depending on the participants roles. |
 | 'AGREEMENT_MODIFIED' | Agreement modified by sender modify document in flight | No change in the status. |
 | 'USER_ACK_AGREEMENT_MODIFIED' | When signer acknowledge modification before signing | No change in the status. |
 | 'SIGNED' | Agreement is fax signed | Either change in status based on the next participants role if there are more recipients or the status changes to SIGNED. |
 | 'ESIGNED' | When agreement is signed | Either change in status based on the next participants role if there are more recipients or the status changes to SIGNED.|
-| 'SIGNED' | When agreement is written signed | Either change in status based on the next participants role if there are more recipients or the status changes to SIGNED. |
+| 'SIGNED' | When agreement is written (scanned+uploaded) signed | Either change in status based on the next participants role if there are more recipients or the status changes to SIGNED. |
 | 'DIGSIGNED' | When agreement is digitally signed | Either change in status based on the next participants role if there are more recipients or the status changes to SIGNED.|
 | 'APPROVED' | When agreement is approved | Either change in status based on the next participants role if there are more recipients or the status changes to one of SIGNED or APPROVED. |
 | 'ACCEPTED' | When agreement is accepted | Either no change in status if there are more recipients or the status changes to one of SIGNED, APPROVED or ACCEPTED. |
