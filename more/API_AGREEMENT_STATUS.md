@@ -10,22 +10,22 @@ PDF can be found [here](https://documentcloud.adobe.com/link/track?uri=urn%3Aaai
 | 'OUT_FOR_SIGNATURE' | Waiting for Signature |
 | 'OUT_FOR_DELIVERY' | Waiting for acceptance by "Certified Recipient" (non-signer)|
 | 'OUT_FOR_ACCEPTANCE' | waiting for acceptance by "Acceptor" (non-signer) |
-| 'OUT_FOR_FORM_FILLING' | waiting for "form filler" recipient to fill out data in fields (non-signer) |
-| 'OUT_FOR_APPROVAL' | waiting for "Approver" to approve (non-signer) |
-| 'AUTHORING' | agreement not yet finished with "authoring" so not yet sent to 1st recipient |
-| 'ABORTED' | 'cancelled(by sender) OR rejected(by recipient) |
-| 'CANCELLED' | cancelled(by sender) OR rejected(by recipient) -- Legacy status now = ABORTED |
-| 'SIGNED' | completed "signed" |
-| 'APPROVED' | completed "approved" |
-| 'DELIVERED' | completed by "Certified Recipient" |
-| 'ACCEPTED' | completed by "Acceptor" |
+| 'OUT_FOR_FORM_FILLING' | Waiting for "form filler" recipient to fill out data in fields (non-signer) |
+| 'OUT_FOR_APPROVAL' | Waiting for "Approver" to approve (non-signer) |
+| 'AUTHORING' | Agreement not yet finished with "authoring" so not yet sent to 1st recipient |
+| 'ABORTED' | Cancelled(by sender) OR rejected(by recipient) |
+| 'CANCELLED' | Cancelled(by sender) OR rejected(by recipient) -- Legacy status, now = ABORTED |
+| 'SIGNED' | Completed "signed" |
+| 'APPROVED' | Completed "approved" |
+| 'DELIVERED' | Completed by "Certified Recipient" |
+| 'ACCEPTED' | Completed by "Acceptor" |
 | 'FORM_FILLED' | Filled out by "Form filler" |
-| 'EXPIRED' | 'agreement has passed "Expiration Date/Time" |
+| 'EXPIRED' | Agreement has passed "Expiration Date/Time" |
 | 'ARCHIVED' | Applies only to files "archived" to Adobe Sign for secure storage |
-| 'PREFILL' | waiting to be pre-filled by sender |
+| 'PREFILL' | Waiting to be pre-filled by sender |
 | 'WIDGET_WAITING_FOR_VERIFICATION' | If email verification is on, signed web-forms(widgets) must have signer verify email address provided during signing before agreement is "complete"/fully executed |
 | 'DRAFT' | From an API perspective think of this as a "stub record" state where no doc conversion has taken place so there is not yet an "authoring" or signing experience but you can change any related data before starting the steps to create an agreement. There is an agreement ID (stubbed) and associated data but nothing else has happened.  Agreements in this state can be deleted without incurring a transaction. |
-| 'DOCUMENTS_NOT_YET_PROCESSED' | request has been made to create an agreement but Adobe Sign is still working on processing the docs for the agreement. |
+| 'DOCUMENTS_NOT_YET_PROCESSED' | Request has been made to create an agreement but Adobe Sign is still working on processing the docs for the agreement. |
 |'WAITING_FOR_FAXIN' | When agreement has been sent and forced WRITTEN. This status references legacy "Faxin" feature now deprecated but is still used for "written"(print, wet-sign, scan and upload) transactions |
 |'WAITING_FOR_VERIFICATION' | OLD status same as WIDGET_WAITING_FOR_VERIFICATION |
 
