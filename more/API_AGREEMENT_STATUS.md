@@ -46,7 +46,7 @@ PDF can be found [here](https://documentcloud.adobe.com/link/track?uri=urn%3Aaai
 | 'FORM_FILLED' | When agreement is filled | Either no change in status if there are more recipients or the status changes to one of SIGNED, APPROVED, ACCEPTED or FORM_FILLED. |
 | 'OFFLINE_SYNC' | When agreement is signed offline using mobile device | Either no change in status if there are more recipients or the status changes to SIGNED. |
 | 'UPLOADED_BY_SENDER' | When signed agreement is uploaded by sender in esign workflow | Agreement status is computed based on next participant's role if there are more recipients or changes to SIGNED |
-| 'FAXED_BY_SENDER' | When signed agreement is uploaded by sender in fax workflow | Agreement status is computed based on next participant's role if there are more recipients or changes to SIGNED This feature - (Fax in orkflow) has been deprecated |
+| 'FAXED_BY_SENDER' | When signed agreement is uploaded by sender in fax workflow | Agreement status is computed based on next participant's role if there are more recipients or changes to SIGNED This feature - (Fax in workflow) has been deprecated |
 | 'SIGNATURE_REQUESTED' | When agreement is sent to signer for signature | Agreement status OUT_FOR_SIGNATURE |
 | 'APPROVAL_REQUESTED' | When agreement is sent to signer for approval | Agreement status OUT_FOR_APPROVAL |
 | 'ACKNOWLEDGEMENT_REQUESTED' | When agreement is sent to signer for acknowledgement | Agreement status OUT_FOR_DELIVERY |
