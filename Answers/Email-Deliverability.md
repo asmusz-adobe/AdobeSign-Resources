@@ -9,5 +9,5 @@ In the case where the company's email server is configured this way there is nev
 
 In this case, Adobe Sign decides after repeated attempts to deliver the mail for 5 days, that this must be a “bad” address and finally sends a bounce message to the sender.
 
-There is really no workaround for this, other than to set up “[alerts](https://helpx.adobe.com/sign/help/quick-setup-guide.html)” in Adobe Sign or check with the recipient by phone or some other means to ask if there could be a problem with their email address and if so to replace the signer via the feature provided for that in the Adobe Sign web UI and/or possibly the API.
+There is really no workaround for this, other than to set up “[alerts](https://helpx.adobe.com/sign/help/quick-setup-guide.html)”(under Users->Configure personal events/alerts) in Adobe Sign or check with the recipient by phone or some other means to ask if there could be a problem with their email address and if so to [replace the signer](https://helpx.adobe.com/sign/using/replace-signer.html) via the feature provided for that in the Adobe Sign web UI and/or possibly the API.
 
