@@ -6,4 +6,4 @@
 * [Forum - Main Adobe Sign](https://forums.adobe.com/community/adobesign)
 * [Developer Forum - Adobe Sign](https://forums.adobe.com/community/adobesign/api_3rd_party_integration)
 * [Partner Specific Resources](https://github.com/skaboy71/AdobeSign-resources/blob/master/more/partner_resources.md)
-* [Development related Q n A](https://google.com)
+* [Development related Q n A](https://github.com/skaboy71/AdobeSign-resources/blob/master/more/DEV_QA.md#development-related-q-n-a)
