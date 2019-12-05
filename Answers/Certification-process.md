@@ -2,7 +2,7 @@
 
 There are some things you should be aware of and follow through on as part of your dev process.
 
-Your platform will normally be required to allow instance users to connect their own Adobe Sign accounts (whether provision for them by you as a partner or acquired by them direct from Adobe) to your platform through oAuth.  This is usually __required__ so you will need to have developed and set things up on your side to account for this.
+Your platform will normally be required to allow instance users to connect their own Adobe Sign accounts (whether provisioned for them by you as a partner or acquired by them direct from Adobe) to your platform through oAuth.  This is usually __required__ so you will need to have developed and set things up on your side to account for this.
 
 We need to make sure you are following the [OWASP top 10](https://www.owasp.org/index.php/Category:OWASP_Top_Ten_Project) as well as making sure you're __encrypting all the tokens as well as your partner "App Secret"__. 
 
