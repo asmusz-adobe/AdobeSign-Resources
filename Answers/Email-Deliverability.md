@@ -2,7 +2,7 @@
 
 The mail server where the email address lives that you tried to send an agreement to be signed, may or may not be set up to respond with bounce alerts for bad addresses. 
 
-This is because of spammers. Spammers will hit an email server with a list of common names xxxxxxx@domain.com,yyyyyy@domain.com, etc. and then check to see which ones bounced. Whichever ones don't bounce are good and then they start sending junk to the "known good" email addresses. 
+This is because of spammers. Spammers will hit an email server with a list of common names xxxxxxx@domain.com .  -   yyyyyy@domain.com, etc. and then check to see which ones bounced. Whichever ones don't bounce are good and then they start sending junk to the "known good" email addresses. 
 
 All the settings on Adobe Sign are set to both alert and email the senders if there is an actual bounce event by default, but in many cases if the mail server is configured to NOT respond to bad addresses, there may never be a bounced response at all. 
 In the case where the company's email server is configured this way there is never ANY indication to Adobe Sign that the email did not reach it's intended destination and so we have no way to know for sure whether the email got to the right address or not. 
