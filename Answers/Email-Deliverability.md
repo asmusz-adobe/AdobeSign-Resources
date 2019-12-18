@@ -1,6 +1,6 @@
 ## Sometimes an email does not "bounce" but we find out later (perhaps days) that it was a "bad"(mis-spelling etc.) address. Doesn't Adobe Sign let us know if the email address is bad?
 
-The mail server where the email address lives that you tried to send an agreement to be signed to may or may not be set up to respond with bounce alerts for bad addresses. 
+The mail server where the email address lives that you tried to send an agreement to be signed, may or may not be set up to respond with bounce alerts for bad addresses. 
 
 This is because of spammers. Spammers will hit an email server with a list of common names xxxxxxx@domain.com,yyyyyy@domain.com, etc. and then check to see which ones bounced. Whichever ones don't bounce are good and then they start sending junk to the "known good" email addresses. 
 
