@@ -1,4 +1,4 @@
-## API Related agreement "Statuses" AND [EVENTS](https://github.com/skaboy71/AdobeSign-resources/blob/master/more/API_AGREEMENT_STATUS.md#events)
+## API Related agreement "Statuses" AND [EVENTS](https://github.com/skaboy71/AdobeSign-resources/blob/master/more/API_AGREEMENT_STATUS.md#events) AND Weebhook Events
 
 Most states relate to specific Adobe Sign ["roles"](https://helpx.adobe.com/sign/using/set-up-signer-approver-roles.html)
 PDF can be found [here](https://documentcloud.adobe.com/link/track?uri=urn%3Aaaid%3Ascds%3AUS%3A4eec32fd-527e-4133-9666-08fb35286d7e).
@@ -73,4 +73,48 @@ PDF can be found [here](https://documentcloud.adobe.com/link/track?uri=urn%3Aaai
 | 'VAULTED' | When agreement has vaulting enabled and a callback is sent to vault provided to perform vaulting | No change in status |
 | 'DOCUMENTS_DELETED' | When document retention policy is enabled and documents of an agreement are deleted | Agreement changes to CANCELLED only if it is not in a terminating state |
 | 'DRAFT_MODIFIED' | Agreement Draft has been modified | No change in status |
+
+## Webhook Events
+
+|                                                    |      |
+| -------------------------------------------------- | ---- |
+| AGREEMENT_ACTION_COMPLETED                         |      |
+| AGREEMENT_ACTION_DELEGATED                         |      |
+| AGREEMENT_ACTION_REPLACED_SIGNER                   |      |
+| AGREEMENT_ACTION_REQUESTED                         |      |
+| AGREEMENT_ALL                                      |      |
+| AGREEMENT_AUTO_CANCELLED_CONVERSION_PROBLEM        |      |
+| AGREEMENT_CREATED                                  |      |
+| AGREEMENT_DOCUMENTS_DELETED                        |      |
+| AGREEMENT_EMAIL_BOUNCED                            |      |
+| AGREEMENT_EMAIL_VIEWED                             |      |
+| AGREEMENT_EXPIRED                                  |      |
+| AGREEMENT_KBA_AUTHENTICATED                        |      |
+| AGREEMENT_MODIFIED                                 |      |
+| AGREEMENT_OFFLINE_SYNC                             |      |
+| AGREEMENT_RECALLED                                 |      |
+| AGREEMENT_REJECTED                                 |      |
+| AGREEMENT_SHARED                                   |      |
+| AGREEMENT_UPLOADED_BY_SENDER                       |      |
+| AGREEMENT_USER_ACK_AGREEMENT_MODIFIED              |      |
+| AGREEMENT_VAULTED                                  |      |
+| AGREEMENT_WEB_IDENTITY_AUTHENTICATED               |      |
+| AGREEMENT_WORKFLOW_COMPLETED                       |      |
+| LIBRARY_DOCUMENT_CREATED                           |      |
+| LIBRARY_DOCUMENT_AUTO_CANCELLED_CONVERSION_PROBLEM |      |
+| LIBRARY_DOCUMENT_MODIFIED                          |      |
+| LIBRARY_DOCUMENT_ALL                               |      |
+| MEGASIGN_ALL                                       |      |
+| MEGASIGN_CREATED                                   |      |
+| MEGASIGN_RECALLED                                  |      |
+| MEGASIGN_SHARED                                    |      |
+| WIDGET_ALL                                         |      |
+| WIDGET_AUTO_CANCELLED_CONVERSION_PROBLEM           |      |
+| WIDGET_CREATED                                     |      |
+| WIDGET_DISABLED                                    |      |
+| WIDGET_ENABLED                                     |      |
+| WIDGET_MODIFIED                                    |      |
+| WIDGET_SHARED                                      |      |
+
+
 
