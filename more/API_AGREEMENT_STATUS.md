@@ -29,7 +29,7 @@ PDF can be found [here](https://documentcloud.adobe.com/link/track?uri=urn%3Aaai
 |'WAITING_FOR_FAXIN' | When agreement has been sent and forced WRITTEN. This status references legacy "Faxin" feature now deprecated but is still used for "written"(print, wet-sign, scan and upload) transactions |
 |'WAITING_FOR_VERIFICATION' | OLD status same as WIDGET_WAITING_FOR_VERIFICATION |
 
-## EVENTS:
+## AGREEMENT EVENTS:
 
 | Event Name                 | Description of Event               | Status Change                      |
 | :------------------------- | :--------------------------------- | :--------------------------------- |
