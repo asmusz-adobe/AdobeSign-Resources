@@ -18,6 +18,6 @@ During the security review and "Certification" process, we will do a few things.
 
 *  If there are any major issues, the group will get back to your development team with the discovered issue/s and ask you to address.
 
-*  Once all concerns have been addressed, your app will be certified and you will be able to make it available to your customers for general use.  If your integration functionality or permissions realted to your app need to change in the future, the application will need to be re-certified.
+*  Once all concerns have been addressed, your app will be certified and you will be able to make it available to your customers for general use.  If your integration functionality, or permissions realted to your app need to change in the future, the application will need to be re-certified.
 
 
