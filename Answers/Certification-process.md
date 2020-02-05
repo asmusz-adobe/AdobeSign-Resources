@@ -8,7 +8,7 @@ We need to make sure you are following the [OWASP top 10](https://www.owasp.org/
 
 You should be finished or nearly finished with your integration development and be able to allow our reviewers to log into an instance to do their testing.
 
-You can help speed up the process by providing any recent 3rd party security testing summary reports you may already have, related to the OWASP parameters.
+You can help speed up the process by providing any recent 3rd party security testing summary reports you may already have, related to the OWASP guidelines.
 
 During the security review and "Certification" process, we will do a few things.
 
