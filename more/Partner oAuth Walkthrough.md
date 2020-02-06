@@ -41,7 +41,7 @@ Account > Adobe Sign API  > API Applications > AppName > Configure oAuth for app
 
 You now need to add the permissions and “scopes” that will be used by your application when it interacts with the Adobe Sign APIs, as well as the **_redirect URI_** that will be **_a URL available publicly (internet) on your infrastructure that can capture the account details and code for from the request for oAuth process driven by the link that you will eventually add to your application or platform to get it connected to the customer’s Adobe Sign account._**
 
-The process of capturing this data and making the API call to get the “refresh" and “access” tokens for API use by your platform/application will need to be done through code on your redirect URI page housed on your servers.
+The process of capturing this data and making the API call to get the “refresh" and “access” tokens for API use by your platform/application will need to be done [through code on your redirect URI page](./Partner%20oAuth%20Walkthrough.md#whats-needed-on-the-redirect-uri-page) housed on your servers.
 
 These “scopes” are not determining what the token will be, but are setting the “upper limit” or "scope" of **_what can be requested._** 
 
@@ -82,7 +82,7 @@ OK … got all that?  Next we look at what this process will look like for your 
 
 #### What does this oAuth process look like for your customers?
 
-When your customer goes through the oAuth process starting by clicking the link in your app, they will start by being taken to the main login page for Adobe Sign.
+When your customer goes through the oAuth process with clicking the link in your app, they will start by being taken to the main login page for Adobe Sign.
 
 They might already have that browser logged into their account but if not they need to log in:
 
@@ -94,7 +94,7 @@ Next they’ll be presented with the permissions needed for your app as defined 
 
 And next, they’ll be “redirected” to …… wait for it …… Yes!!     The redirect URI defined on your server.  😉
 
-In the URL will be a number of things your system will need to get the refresh and access tokens that your app/platform will need to start making calls against the API.
+In the URL will be a number of things your system will need to get the refresh and access tokens that your app/platform has to have for making calls against the API.
 
 The URL with those extra bits will look something like this:
 
@@ -104,7 +104,7 @@ What are all those extra bit about?
 
 code=CBNCKBAAHBCAABAApvoU1TLVOj_GuGynhtExjJbQNOmst9KP — This is the code your system will use to make the actual API call to get those tokens. You need to use this fairly immediately as it’s only valid for 5 minutes.
 
-api_access_point=https%3A%2F%2Fapi.na1.echosign.com%2F — This is the encoded URL which is the base URL for the account where you will need to start all your REST calls for getting tokens, sending agreements and all the other cool stuff.
+api_access_point=https%3A%2F%2Fapi.***na1***.echosign.com%2F — This is the encoded URL which is the base URL for the account where you will need to start all your REST calls for uploading docs, creating templates, getting agreement "views", sending agreements and all the other cool stuff.  This critical thing here is the ".***na1***." part which tells your system which "shard" the customer's application is on.  We use AWS and AZURE  to host Adobe Sign and customer's accounts may be on one af many shards in various geo-locations.  Once you have tokens you need to make all your REST calls to the shard where their account lives.
 
 &state=uhuhygtf576534 — This is that “state” string your system gave us so you could know which instance of your application/platform made this request.  You need this so you know where to take your customer “back” to and so you know which instance of your app you need to store the tokens for.
 
@@ -130,7 +130,9 @@ in our example:
 We have:
 
 >code = CBNCKBAAHBCAABAApvoU1TLVOj_GuGynhtExjJbQNOmst9KP
+>
 >api_access_point = https://api.na1.echosign.com/
+>
 >state = uhuhygtf576534
 
 In addition to these you will need the Client/Application ID and “secret” from the partner app oAuth config page in your developer account:
