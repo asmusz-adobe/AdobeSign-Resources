@@ -16,11 +16,11 @@ To start you will need a [developers account on Adobe Sign](https://acrobat.adob
 Once you have the account set-up, you will need to log in and create a new partner application.
 
 Account > Adobe Sign API  > API Applications > +
-![image](http://drive.google.com/uc?export=view&id=1mvav1zi-aXa7P9zVKv4YHMI4JTfjrvUO)
+![](https://tva1.sinaimg.cn/large/006tNbRwgy1gbmlgo8oirj30yg0mx44d.jpg)	
 
 Fill out as shown:
 
-![image](http://drive.google.com/uc?export=view&id=1L3MnC-eIwTxhx5nOfO3rg-LAOBH4aZgR)
+![](https://tva1.sinaimg.cn/large/006tNbRwgy1gbmlhkur90j30gl0e3dgx.jpg)	
 
 Your new partner application will be “uncertified” until you have gone through the partner certification process but you will be able to test the process of getting Adobe Sign accounts connected to it by changing some settings in the test/customer account. These details will be discussed in another note.
 
@@ -135,7 +135,7 @@ We have:
 
 In addition to these you will need the Client/Application ID and “secret” from the partner app oAuth config page in your developer account:
 
-![image7](http://drive.google.com/uc?export=view&id=12M6qmBQJHQ3tg0VLV3Nk288ReraMCefY)
+![](https://tva1.sinaimg.cn/large/006tNbRwgy1gbmljhlvmoj30l808ogol.jpg)	
 
 Remember when we saw that while doing the oAuth configuration?
 
