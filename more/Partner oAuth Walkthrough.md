@@ -37,7 +37,7 @@ Find the app, select and click "Configure oAuth for application".
 
 Account > Adobe Sign API  > API Applications > AppName > Configure oAuth for application
 
-![image](http://drive.google.com/uc?export=view&id=1KzAGIsW-8_E9M7Kar4DU5mcCbOBocxMg)
+![](https://tva1.sinaimg.cn/large/006tNbRwgy1gbmla232l4j30xh0mogrp.jpg)
 
 You now need to add the permissions and “scopes” that will be used by your application when it interacts with the Adobe Sign APIs, as well as the **_redirect URI_** that will be **_a URL available publicly (internet) on your infrastructure that can capture the account details and code for from the request for oAuth process driven by the link that you will eventually add to your application or platform to get it connected to the customer’s Adobe Sign account._**
 
@@ -53,7 +53,7 @@ You may not (and probably don’t) need all the possible permissions available o
 
 When you adjust later, please limit the scopes that you enable to the minimum set necessary for your application, which is one of the requirements for Certification.
 
-![image](http://drive.google.com/uc?export=view&id=1IVEu6A0XY15I6oAFgjXuF2t-e0XyoOvs)
+![](https://tva1.sinaimg.cn/large/006tNbRwgy1gbmlb54rtjj30m50u2nat.jpg)	
 
 Once you have this set as you’d like it, click “Save” and then we can talk about how to add a link in your app to start the oAuth process (getting oAuth tokens to link your customer’s app/platform instance to their Adobe Sign account).
 
@@ -86,11 +86,11 @@ When your customer goes through the oAuth process starting by clicking the link 
 
 They might already have that browser logged into their account but if not they need to log in:
 
-![image5](http://drive.google.com/uc?export=view&id=1L0RnfTHb5XqCVyX2HTarhWKdmX8U0ik2)
+![](https://tva1.sinaimg.cn/large/006tNbRwgy1gbmlcsmaa9j30cy0fcgm5.jpg)	
 
 Next they’ll be presented with the permissions needed for your app as defined by the URL parameters in your starting link:
 
-![image6](http://drive.google.com/uc?export=view&id=1LI2XG3Z8e5RWXzrr1t4Hztz46JADtcDI)
+![](https://tva1.sinaimg.cn/large/006tNbRwgy1gbmldzad4lj30h30dt76c.jpg)	
 
 And next, they’ll be “redirected” to …… wait for it …… Yes!!     The redirect URI defined on your server.  😉
 
@@ -152,7 +152,7 @@ In the body are a bunch of other params which you can construct from the data yo
 
 In POSTMAN (A great tool I highly recommend) this call would look something like this:
 
-![image8](http://drive.google.com/uc?export=view&id=1ZA-ewTwf85ElSepjs_n8LX9CpNgHB0Bc)
+![](https://tva1.sinaimg.cn/large/006tNbRwgy1gbmletjo3pj30z00gq0wd.jpg)	
 
 The “raw” call looks like:
 
