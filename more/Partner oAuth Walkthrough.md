@@ -28,7 +28,9 @@ Ok … now we can move on to Configuring oAuth for your new Adobe Sign app!
 
 
 #### Configure oAuth for the new app
+
 ##### What permissions and access level do you need for your application?
+
 To configure oAuth setting for a partner app you will need to log into the developers account where you created the new partner app.
 
 Find the app, select and click "Configure oAuth for application".
@@ -67,12 +69,13 @@ The link URL should look something like this:
 >https://secure.echosign.com/public/oauth?redirect_uri=https://your-oAuthInteraction-Server/your-oAuth-Page.html&response_type=code&client_id=CBJCHBCAABAAAbjw-szq8_Pg2Ljg7_b_vuaYiCAK1i4q&state=uhuhygtf576534&scope=user_read:account+user_write:account+user_login:account+agreement_read:account+agreement_write:account+agreement_send:account+widget_read:account+widget_write:account+library_read:account+library_write:account+workflow_read:account+workflow_write:account
 
 ##### How this breaks down:
+
 1.  Base URL to start process - May seem obvious but we had to say it.  **_For partner apps this should NOT contain the "shard" of an account (na1, na2, eu1, jp1, etc.)_**
 2.  Redirect URI "redirect_uri="- This comes from your application (configured on the app in your Adobe Sign developers account) oAuth settings. **_This must match the configured URI exactly. If not you will get errors._**
 3.  Response Type “&response_type=code” -  This just tells the process you’re looking for the oAuth code on the redirect URI once your customer logs in and accepts the auth permissions. - Use this exactly as quoted (no replacement for your scenario)
 4.  Client ID "&client_id=" - tells Adobe Sign what application your customer is requesting a token for. (The one for your app/platform)
 5.  State "&state=" - This can be used to pass a unique ID that will be “passed through” to the redirect URI which is typically a unique identifier for the instance of your application so your system knows which client/instance requested the token and so where to save it inside your platform.
-6. Scopes and permissions "&scope=" - This is the “good stuff” that tells Adobe Sign what permissions are needed for the token your app will need for all the wonderful things your platform can do for them when interacting with the Sign API. 
+6.  Scopes and permissions "&scope=" - This is the “good stuff” that tells Adobe Sign what permissions are needed for the token your app will need for all the wonderful things your platform can do for them when interacting with the Sign API. 
 
 OK … got all that?  Next we look at what this process will look like for your customers.
 
@@ -154,9 +157,9 @@ In POSTMAN (A great tool I highly recommend) this call would look something like
 The “raw” call looks like:
 
 >POST /oauth/token HTTP/1.1
-Host: secure.na1.echosign.com
-Content-Type: application/x-www-form-urlencoded
-Cache-Control: no-cache
+>Host: secure.na1.echosign.com
+>Content-Type: application/x-www-form-urlencoded
+>Cache-Control: no-cache
 
 code=CBNCKBAAHBCAABAAOhqFxpG1VorkQqCpTcsWQZrdlPAe6p4v&client_id=CBJCHBCAABAA-bAGKL5EGoAVa0uQnFR_k--pCMoA589W&client_secret=HCLtG15GhovoBD2HBlPJ7su5FJ7tMkHd&redirect_uri=https%3A%2F%2Faaronsmusz.com%2Foauth%2FoauthSuccess_app222.php&grant_type=authorization_code
 
@@ -188,11 +191,12 @@ https://api.na1.echosign.com/oauth/refresh
 This call looks like this:
 
 >POST /oauth/refresh HTTP/1.1
-Host: api.na1.echosign.com
-Content-Type: application/x-www-form-urlencoded
-Cache-Control: no-cache
+>Host: api.na1.echosign.com
+>Content-Type: application/x-www-form-urlencoded
+>Cache-Control: no-cache
 
 refresh_token=3AAABLblqZhCxjXUfsx_pz44l8opXqFPXVUUPjr72JJ-uoBMvpo-xMgwiX_j6AUIfbskIaYyC34M*&client_id=CBJCHBCAABAA-
+
 >bAGfU0EGoAVa0uQnFR_k--pCMoA589W&client_secret=HCLtG15GhovoBD2HBlKF4su5FJ7tMkHd&grant_type=refresh_token
 
 Ok ….FYI …. The “refresh” token will also expire but it works a bit differently.
@@ -204,5 +208,3 @@ Once you have the tokens, and you know how to get new access tokens using the re
 
 This concludes our crash course on oAuth and Adobe Sign!  
 Hope you’re having a great day!
-
-
