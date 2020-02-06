@@ -1,14 +1,14 @@
 ### Setting up a partner oAuth application
-####
-####
+
+
 1. Read the [Adobe Sign oAuth doc](https://secure.echosign.com/public/static/oauthDoc) Start here to get an “overview” but don’t stress as there are more details below to help walk you through it.
 2. Create a “partner" app in your dev account The necessary first action.[->](./Partner%20oAuth%20Walkthrough.md#create-partner-app-in-your-dev-account)
-3. Configure oAuth for the new app What permissions and access level do you need for your application?[->](https://github.com/skaboy71/AdobeSign-resources/blob/master/Partner%20oAuth%20Walkthrough.md#configure-oauth-for-the-new-app)
-4. Add link to your platform for oAuth request This is how your customer’s will need to start the oAuth process.[->](https://github.com/skaboy71/AdobeSign-resources/blob/master/Partner%20oAuth%20Walkthrough.md#add-link-to-your-platform-for-oauth-request)
-5. What does this oAuth process look like for your customers? More detail on the end-user experience, and some code/process discussion.[->](https://github.com/skaboy71/AdobeSign-resources/blob/master/more/Partner%20oAuth%20Walkthrough.md#what-does-this-oauth-process-look-like-for-your-customers)
-6. What’s needed on the “redirect URI” page? More “nuts and bolts” for the developers.[->](https://github.com/skaboy71/AdobeSign-resources/blob/master/more/Partner%20oAuth%20Walkthrough.md#whats-needed-on-the-redirect-uri-page)
-####
-####
+3. Configure oAuth for the new app What permissions and access level do you need for your application?[->](./Partner%20oAuth%20Walkthrough.md#configure-oauth-for-the-new-app)
+4. Add link to your platform for oAuth request This is how your customer’s will need to start the oAuth process.[->](./Partner%20oAuth%20Walkthrough.md#add-link-to-your-platform-for-oauth-request)
+5. What does this oAuth process look like for your customers? More detail on the end-user experience, and some code/process discussion.[->](./Partner%20oAuth%20Walkthrough.md#what-does-this-oauth-process-look-like-for-your-customers)
+6. What’s needed on the “redirect URI” page? More “nuts and bolts” for the developers.[->](./Partner%20oAuth%20Walkthrough.md#whats-needed-on-the-redirect-uri-page)
+
+
 #### Create “partner" app in your dev account
 
 To start you will need a [developers account on Adobe Sign](https://acrobat.adobe.com/us/en/why-adobe/developer-form.html).
@@ -26,8 +26,7 @@ Your new partner application will be “uncertified” until you have gone throu
 
 Ok … now we can move on to Configuring oAuth for your new Adobe Sign app!
 
-####
-####
+
 #### Configure oAuth for the new app
 ##### What permissions and access level do you need for your application?
 To configure oAuth setting for a partner app you will need to log into the developers account where you created the new partner app.
@@ -56,8 +55,7 @@ When you adjust later, please limit the scopes that you enable to the minimum se
 
 Once you have this set as you’d like it, click “Save” and then we can talk about how to add a link in your app to start the oAuth process (getting oAuth tokens to link your customer’s app/platform instance to their Adobe Sign account).
 
-####
-####
+
 #### Add link to your platform for oAuth request
 
 In your app you will need a URL link for your customers to start the oAuth request process.
@@ -78,8 +76,7 @@ The link URL should look something like this:
 
 OK … got all that?  Next we look at what this process will look like for your customers.
 
-####
-####
+
 #### What does this oAuth process look like for your customers?
 
 When your customer goes through the oAuth process starting by clicking the link in your app, they will start by being taken to the main login page for Adobe Sign.
@@ -114,8 +111,7 @@ Great!! you may say but I still don’t have a token?
 
 True… please go to the next section to see a discussion of what the redirect URI page on your server needs to do.
 
-####
-####
+
 ####  What’s needed on the “redirect URI” page?
 
 Ok …. whew … that was a lot and we still don’t have a token once we’ve been re-directed to that darn redirect URI page.
