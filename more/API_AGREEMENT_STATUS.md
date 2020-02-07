@@ -29,6 +29,22 @@ PDF can be found [here](https://documentcloud.adobe.com/link/track?uri=urn%3Aaai
 |'WAITING_FOR_FAXIN' | When agreement has been sent and forced WRITTEN. This status references legacy "Faxin" feature now deprecated but is still used for "written"(print, wet-sign, scan and upload) transactions |
 |'WAITING_FOR_VERIFICATION' | OLD status same as WIDGET_WAITING_FOR_VERIFICATION |
 
+## Status related to recipients
+
+|  Status                                  |  Status meaning/description
+| :--------------------------------------- | :-------------------------------------------------- |
+|'NOT_YET_VISIBLE'|Recipients before you have not finished their required action/s|
+|'WAITING_FOR_OTHERS'|Recipients after you still need to take their required actions|
+|'WAITING_FOR_MY_APPROVAL'|You are the current recipient (APPROVER) and need to approve|
+|'WAITING_FOR_AUTHORING'|You are the current sender and need to finish the authoring step and set the agreement to 'IN_PROCESS'|
+|'WAITING_FOR_MY_ACKNOWLEDGEMENT'|You are the current recipient (Certified recipient) and need to Acknowledge your reciept|
+|'WAITING_FOR_MY_ACCEPTANCE'|You are the current recipient (Acceptor) and need to Accept|
+|'WAITING_FOR_MY_FORM_FILLING'|You are the current recipient (FORM_FILLER) and need to fill out the fields|
+|'WAITING_FOR_MY_DELEGATION'|You are the current recipient (DELEGATOR) and need to delegate the agreement to someone|
+|'WAITING_FOR_MY_SIGNATURE'|You are the current recipient (SIGNER) and need to sign|
+|'WAITING_FOR_MY_VERIFICATION'| You have signed a web form (widget) but have not completed the post signing email verification step|
+|'WAITING_FOR_PREFILL'| You are the 1st signer where the sender has marked fields to be pre-filled but has not finished prefilling and sending|
+
 ## AGREEMENT EVENTS:
 
 | Event Name                 | Description of Event               | Status Change                      |
