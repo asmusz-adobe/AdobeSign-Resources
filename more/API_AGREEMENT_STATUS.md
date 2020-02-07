@@ -95,8 +95,8 @@ PDF can be found [here](https://documentcloud.adobe.com/link/track?uri=urn%3Aaai
 
 ## Webhook Events
 
-| Event Name                                         | Fires When |
-| -------------------------------------------------- | ---- |
+| Event Name                                         | Fires When  |
+| :--------------------------------------------------| :---------- |
 | AGREEMENT_ACTION_COMPLETED                         |The recipient has completed their required action, including all roles.(Singer, Approver, Acceptor, Certified Recipient, Form Filler, Delegator)|
 | AGREEMENT_ACTION_DELEGATED                         |A delegation has occurred|
 | AGREEMENT_ACTION_REPLACED_SIGNER                   |A Signer was replaced|
