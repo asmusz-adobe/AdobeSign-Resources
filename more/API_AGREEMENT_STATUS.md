@@ -46,7 +46,7 @@ PDF can be found [here](https://documentcloud.adobe.com/link/track?uri=urn%3Aaai
 |'WAITING_FOR_MY_DELEGATION'|You are the current recipient (DELEGATOR) and need to delegate the agreement to someone|
 |'WAITING_FOR_MY_SIGNATURE'|You are the current recipient (SIGNER) and need to sign|
 |'WAITING_FOR_MY_VERIFICATION'| You have signed a web form (widget) but have not completed the post signing email verification step|
-|'WAITING_FOR_PREFILL'| You are the 1st signer where the sender has marked fields to be pre-filled but has not finished prefilling and sending|
+|'WAITING_FOR_PREFILL'| You are the 1st recipient where the sender has marked fields to be pre-filled (by her/him) but has not finished prefilling and sending|
 
 ## AGREEMENT EVENTS:
 
