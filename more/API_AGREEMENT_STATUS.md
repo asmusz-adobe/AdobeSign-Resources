@@ -33,12 +33,15 @@ PDF can be found [here](https://documentcloud.adobe.com/link/track?uri=urn%3Aaai
 
 |  Status                                  |  Status meaning/description
 | :--------------------------------------- | :-------------------------------------------------- |
+|'COMPLETED'|Your required action is complete|
+|'CANCELLED'|You (or someone before you in the recipient order) has cancelled the agreement|
+|'EXPIRED'|The agreement expired whie waiting for you to take the required action|
 |'NOT_YET_VISIBLE'|Recipients before you have not finished their required action/s|
 |'WAITING_FOR_OTHERS'|Recipients after you still need to take their required actions|
 |'WAITING_FOR_MY_APPROVAL'|You are the current recipient (APPROVER) and need to approve|
 |'WAITING_FOR_AUTHORING'|You are the current sender and need to finish the authoring step and set the agreement to 'IN_PROCESS'|
-|'WAITING_FOR_MY_ACKNOWLEDGEMENT'|You are the current recipient (Certified recipient) and need to Acknowledge your reciept|
-|'WAITING_FOR_MY_ACCEPTANCE'|You are the current recipient (Acceptor) and need to Accept|
+|'WAITING_FOR_MY_ACKNOWLEDGEMENT'|You are the current recipient (CERTIFIED_RECIPIENT) and need to Acknowledge your reciept|
+|'WAITING_FOR_MY_ACCEPTANCE'|You are the current recipient (ACCEPTOR) and need to Accept|
 |'WAITING_FOR_MY_FORM_FILLING'|You are the current recipient (FORM_FILLER) and need to fill out the fields|
 |'WAITING_FOR_MY_DELEGATION'|You are the current recipient (DELEGATOR) and need to delegate the agreement to someone|
 |'WAITING_FOR_MY_SIGNATURE'|You are the current recipient (SIGNER) and need to sign|
