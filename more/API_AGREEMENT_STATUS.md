@@ -95,7 +95,7 @@ PDF can be found [here](https://documentcloud.adobe.com/link/track?uri=urn%3Aaai
 
 ## Webhook Events
 
-|                                                    |      |
+| Event Name                                         | Fires When |
 | -------------------------------------------------- | ---- |
 | AGREEMENT_ACTION_COMPLETED                         |The recipient has completed their required action, including all roles.(Singer, Approver, Acceptor, Certified Recipient, Form Filler, Delegator)|
 | AGREEMENT_ACTION_DELEGATED                         |A delegation has occurred|
@@ -113,12 +113,12 @@ PDF can be found [here](https://documentcloud.adobe.com/link/track?uri=urn%3Aaai
 | AGREEMENT_OFFLINE_SYNC                             |An agreement sent to someone using the iOS app with off-line signing capabilities has "synced" the agreement to their Adobe Sign mobile app for later signing while off-line.|
 | AGREEMENT_RECALLED                                 |The agreement was cancelled by the sender or the senders designated admin|
 | AGREEMENT_REJECTED                                 |The agreement was cancelled by a recipient.|
-| AGREEMENT_SHARED                                   |The agreement was shared by the sender OR by a signer who has access to a signed agreement|
-| AGREEMENT_UPLOADED_BY_SENDER                       |A scanned copy was sent to the sender and she/he uploaded it as the "signed copy" in the web UI.|
+| AGREEMENT_SHARED                                   |The agreement was shared by the sender OR by a signer who has access to a signed agreement.|
+| AGREEMENT_UPLOADED_BY_SENDER                       |A "wet signed", scanned copy was sent to the sender and she/he uploaded it as the "signed copy" in the web UI.|
 | AGREEMENT_USER_ACK_AGREEMENT_MODIFIED              |After send, a signer may decide that there is somthing incorrect in the agreement document which needs to be changed.  If they don't sign or reject, they can notify the sender and the sender can "replace" the document with a corrected copy. In this case there is a notification to the signer that the doc has been modified.|
 | AGREEMENT_VAULTED                                  |When an agreement is vaulted vie the eOriginal integration.|
 | AGREEMENT_WEB_IDENTITY_AUTHENTICATED               |When a signer authenticates for signing via social ID (google facebook etc.)|
-| AGREEMENT_WORKFLOW_COMPLETED                       |When all recpients have taken their required action/s|
+| AGREEMENT_WORKFLOW_COMPLETED                       |When an agreement reaches a terminal state.  This includes recall (sender action), rejection (signer action), and completion when all recpients have taken their required action/s|
 | LIBRARY_DOCUMENT_CREATED                           |A library doc is created (document or form field template)|
 | LIBRARY_DOCUMENT_AUTO_CANCELLED_CONVERSION_PROBLEM |If via API "POST" or during save in the UI there is an issue with document conversion on a library doc/template add|
 | LIBRARY_DOCUMENT_MODIFIED                          |When a library doc or template is modified.|
