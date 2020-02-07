@@ -97,32 +97,32 @@ PDF can be found [here](https://documentcloud.adobe.com/link/track?uri=urn%3Aaai
 
 |                                                    |      |
 | -------------------------------------------------- | ---- |
-| AGREEMENT_ACTION_COMPLETED                         |      |
-| AGREEMENT_ACTION_DELEGATED                         |      |
-| AGREEMENT_ACTION_REPLACED_SIGNER                   |      |
-| AGREEMENT_ACTION_REQUESTED                         |      |
-| AGREEMENT_ALL                                      |      |
-| AGREEMENT_AUTO_CANCELLED_CONVERSION_PROBLEM        |      |
-| AGREEMENT_CREATED                                  |      |
-| AGREEMENT_DOCUMENTS_DELETED                        |      |
-| AGREEMENT_EMAIL_BOUNCED                            |      |
-| AGREEMENT_EMAIL_VIEWED                             |      |
-| AGREEMENT_EXPIRED                                  |      |
-| AGREEMENT_KBA_AUTHENTICATED                        |      |
-| AGREEMENT_MODIFIED                                 |      |
-| AGREEMENT_OFFLINE_SYNC                             |      |
-| AGREEMENT_RECALLED                                 |      |
-| AGREEMENT_REJECTED                                 |      |
-| AGREEMENT_SHARED                                   |      |
-| AGREEMENT_UPLOADED_BY_SENDER                       |      |
-| AGREEMENT_USER_ACK_AGREEMENT_MODIFIED              |      |
-| AGREEMENT_VAULTED                                  |      |
-| AGREEMENT_WEB_IDENTITY_AUTHENTICATED               |      |
-| AGREEMENT_WORKFLOW_COMPLETED                       |      |
-| LIBRARY_DOCUMENT_CREATED                           |      |
-| LIBRARY_DOCUMENT_AUTO_CANCELLED_CONVERSION_PROBLEM |      |
-| LIBRARY_DOCUMENT_MODIFIED                          |      |
-| LIBRARY_DOCUMENT_ALL                               |      |
+| AGREEMENT_ACTION_COMPLETED                         |The recipient has completed their required action, including all roles.(Singer, Approver, Acceptor, Certified Recipient, Form Filler, Delegator)|
+| AGREEMENT_ACTION_DELEGATED                         |A delegation has occurred|
+| AGREEMENT_ACTION_REPLACED_SIGNER                   |A Signer was replaced|
+| AGREEMENT_ACTION_REQUESTED                         |The agreement has moved from one recipient to the next which requests the next person to take action (including all roles)|
+| AGREEMENT_ALL                                      |Will fire on ALL possible events|
+| AGREEMENT_AUTO_CANCELLED_CONVERSION_PROBLEM        |There can sometimes be issues converting the uploaded file that cause the agreement to fail. This is not always caught during the send action and can happen after agreement creation.|
+| AGREEMENT_CREATED                                  |Agreement is created|
+| AGREEMENT_DOCUMENTS_DELETED                        |The files in an agreement (documents) are deleted either via retention policy or via an API call to Adobe Sign to make that action. Audit info for the agreement is retained.|
+| AGREEMENT_EMAIL_BOUNCED                            |AN email to a recipient is "bounced" by the recieving server.  Usually due to a bad address.|
+| AGREEMENT_EMAIL_VIEWED                             |The email from Adobe Sign asing a recipient to take action is viewed in their email client|
+| AGREEMENT_EXPIRED                                  |The expiration date/time has elapsed. This is a terminating event for the entire agreement.|
+| AGREEMENT_KBA_AUTHENTICATED                        |A signer using KBA has successfully authenticated|
+| AGREEMENT_MODIFIED                                 |The "document" in an "in-flight" un-signed agreement has been replaced/changed|
+| AGREEMENT_OFFLINE_SYNC                             |An agreement sent to someone using the iOS app with off-line signing capabilities has "synced" the agreement to their Adobe Sign mobile app for later signing while off-line.|
+| AGREEMENT_RECALLED                                 |The agreement was cancelled by the sender or the senders designated admin|
+| AGREEMENT_REJECTED                                 |The agreement was cancelled by a recipient.|
+| AGREEMENT_SHARED                                   |The agreement was shared by the sender OR by a signer who has access to a signed agreement|
+| AGREEMENT_UPLOADED_BY_SENDER                       |A scanned copy was sent to the sender and she/he uploaded it as the "signed copy" in the web UI.|
+| AGREEMENT_USER_ACK_AGREEMENT_MODIFIED              |After send, a signer may decide that there is somthing incorrect in the agreement document which needs to be changed.  If they don't sign or reject, they can notify the sender and the sender can "replace" the document with a corrected copy. In this case there is a notification to the signer that the doc has been modified.|
+| AGREEMENT_VAULTED                                  |When an agreement is vaulted vie the eOriginal integration.|
+| AGREEMENT_WEB_IDENTITY_AUTHENTICATED               |When a signer authenticates for signing via social ID (google facebook etc.)|
+| AGREEMENT_WORKFLOW_COMPLETED                       |When all recpients have taken their required action/s|
+| LIBRARY_DOCUMENT_CREATED                           |A library doc is created (document or form field template)|
+| LIBRARY_DOCUMENT_AUTO_CANCELLED_CONVERSION_PROBLEM |If via API "POST" or during save in the UI there is an issue with document conversion on a library doc/template add|
+| LIBRARY_DOCUMENT_MODIFIED                          |When a library doc or template is modified.|
+| LIBRARY_DOCUMENT_ALL                               |ALL possible doc library events|
 | MEGASIGN_ALL                                       |      |
 | MEGASIGN_CREATED                                   |      |
 | MEGASIGN_RECALLED                                  |      |
