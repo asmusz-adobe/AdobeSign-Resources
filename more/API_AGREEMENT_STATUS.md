@@ -5,7 +5,7 @@ PDF can be found [here](https://documentcloud.adobe.com/link/track?uri=urn%3Aaai
 
 ## STATUSES
 
-|  Status                                  |  Status meaning/description
+|  Status                                  |  Status meaning/description                         |
 | :--------------------------------------- | :-------------------------------------------------- |
 | 'OUT_FOR_SIGNATURE' | Waiting for Signature by one or more Signers|
 | 'OUT_FOR_DELIVERY' | Waiting for acceptance by "Certified Recipient" (non-signer)|
@@ -31,22 +31,22 @@ PDF can be found [here](https://documentcloud.adobe.com/link/track?uri=urn%3Aaai
 
 ## Status related to recipients
 
-|  Status                                  |  Status meaning/description
-| :--------------------------------------- | :-------------------------------------------------- |
-|'COMPLETED'|Your required action is complete|
-|'CANCELLED'|You (or someone before you in the recipient order) has cancelled the agreement|
-|'EXPIRED'|The agreement expired whie waiting for you to take the required action|
-|'NOT_YET_VISIBLE'|Recipients before you have not finished their required action/s|
-|'WAITING_FOR_OTHERS'|Recipients after you still need to take their required actions|
-|'WAITING_FOR_MY_APPROVAL'|You are the current recipient (APPROVER) and need to approve|
-|'WAITING_FOR_AUTHORING'|You are the current sender and need to finish the authoring step and set the agreement to 'IN_PROCESS'|
-|'WAITING_FOR_MY_ACKNOWLEDGEMENT'|You are the current recipient (CERTIFIED_RECIPIENT) and need to Acknowledge your reciept|
-|'WAITING_FOR_MY_ACCEPTANCE'|You are the current recipient (ACCEPTOR) and need to Accept|
-|'WAITING_FOR_MY_FORM_FILLING'|You are the current recipient (FORM_FILLER) and need to fill out the fields|
-|'WAITING_FOR_MY_DELEGATION'|You are the current recipient (DELEGATOR) and need to delegate the agreement to someone|
-|'WAITING_FOR_MY_SIGNATURE'|You are the current recipient (SIGNER) and need to sign|
-|'WAITING_FOR_MY_VERIFICATION'| You have signed a web form (widget) but have not completed the post signing email verification step|
-|'WAITING_FOR_PREFILL'| You are the 1st recipient where the sender has marked fields to be pre-filled (by her/him) but has not finished prefilling and sending|
+| Status                           | Status meaning/description                                   |
+| :------------------------------- | :----------------------------------------------------------- |
+| 'COMPLETED'                      | Your required action is complete                             |
+| 'CANCELLED'                      | You (or someone before you in the recipient order) has cancelled the agreement |
+| 'EXPIRED'                        | The agreement expired whie waiting for you to take the required action |
+| 'NOT_YET_VISIBLE'                | Recipients before you have not finished their required action/s |
+| 'WAITING_FOR_OTHERS'             | Recipients after you still need to take their required actions |
+| 'WAITING_FOR_MY_APPROVAL'        | You are the current recipient (APPROVER) and need to approve |
+| 'WAITING_FOR_AUTHORING'          | You are the current sender and need to finish the authoring step and set the agreement to 'IN_PROCESS' |
+| 'WAITING_FOR_MY_ACKNOWLEDGEMENT' | You are the current recipient (CERTIFIED_RECIPIENT) and need to Acknowledge your reciept |
+| 'WAITING_FOR_MY_ACCEPTANCE'      | You are the current recipient (ACCEPTOR) and need to Accept  |
+| 'WAITING_FOR_MY_FORM_FILLING'    | You are the current recipient (FORM_FILLER) and need to fill out the fields |
+| 'WAITING_FOR_MY_DELEGATION'      | You are the current recipient ([DELEGATOR](https://helpx.adobe.com/sign/how-to/use-the-delegator-role.html)) and need to delegate the agreement to someone |
+| 'WAITING_FOR_MY_SIGNATURE'       | You are the current recipient (SIGNER) and need to sign      |
+| 'WAITING_FOR_MY_VERIFICATION'    | You have signed a web form (widget) but have not completed the post signing email verification step |
+| 'WAITING_FOR_PREFILL'            | You are the 1st recipient where the sender has marked fields to be pre-filled (by her/him) but has not finished prefilling and sending |
 
 ## AGREEMENT EVENTS:
 
@@ -76,7 +76,7 @@ PDF can be found [here](https://documentcloud.adobe.com/link/track?uri=urn%3Aaai
 | 'EXPIRED' | When some custom expiry is set by sender and agreement reached that date | Status changes to EXPIRED |
 | 'EXPIRED_AUTOMATICALLY' | When agreement is expired automatically | Status changes to EXPIRED |
 | 'SHARED' | When agreement has been shared by a participant | No change in status |
-| 'EMAIL_VIEWED' | When signer view's the esign mail | No change in status | 
+| 'EMAIL_VIEWED' | When signer view's the esign mail | No change in status |
 | 'EMAIL_BOUNCED' | When email not delivered to signer | No change in status |
 | 'AUTO_CANCELLED_CONVERSION_PROBLEM' | When agreement conversion failed due to which agreement is auto cancelled | Status changes to CANCELLED |
 | 'PASSWORD_AUTHENTICATION_FAILED' | As name suggests | No change in status |
@@ -98,7 +98,7 @@ PDF can be found [here](https://documentcloud.adobe.com/link/track?uri=urn%3Aaai
 | Event Name                                         | Fires When  |
 | :--------------------------------------------------| :---------- |
 | AGREEMENT_ACTION_COMPLETED                         |The recipient has completed their required action, including all roles.(Singer, Approver, Acceptor, Certified Recipient, Form Filler, Delegator)|
-| AGREEMENT_ACTION_DELEGATED                         |A delegation has occurred.|
+| AGREEMENT_ACTION_DELEGATED                         |A delegation has occurred. ([sender](https://helpx.adobe.com/sign/how-to/adobe-delegate-signing.html) or signer, internal or external)|
 | AGREEMENT_ACTION_REPLACED_SIGNER                   |A Signer was replaced by the sender.|
 | AGREEMENT_ACTION_REQUESTED                         |The agreement has moved from one recipient to the next which requests the next person to take action. (including all roles)|
 | AGREEMENT_ALL                                      |Will fire on ALL possible agreement events.|
@@ -109,7 +109,7 @@ PDF can be found [here](https://documentcloud.adobe.com/link/track?uri=urn%3Aaai
 | AGREEMENT_EMAIL_VIEWED                             |The email from Adobe Sign asing a recipient to take action is viewed in their email client.|
 | AGREEMENT_EXPIRED                                  |The expiration date/time has elapsed. This is a terminating event for the entire agreement.|
 | AGREEMENT_KBA_AUTHENTICATED                        |A signer using KBA has successfully authenticated.|
-| AGREEMENT_MODIFIED                                 |The "document" in an "in-flight" un-signed agreement has been replaced/changed.|
+| AGREEMENT_MODIFIED                                 |The "document" in an "in-flight" un-signed agreement has been [replaced/changed](replaced/changed).|
 | AGREEMENT_OFFLINE_SYNC                             |An agreement sent to someone using the iOS app with off-line signing capabilities has "synced" the agreement to their Adobe Sign mobile app for later signing while off-line.|
 | AGREEMENT_RECALLED                                 |The agreement was cancelled by the sender or the senders designated admin.(advanced sharing)|
 | AGREEMENT_REJECTED                                 |The agreement was cancelled by a recipient.|
@@ -122,15 +122,15 @@ PDF can be found [here](https://documentcloud.adobe.com/link/track?uri=urn%3Aaai
 | LIBRARY_DOCUMENT_CREATED                           |A library doc is created (document or form field template)|
 | LIBRARY_DOCUMENT_AUTO_CANCELLED_CONVERSION_PROBLEM |If via API "POST" or during save in the UI there is an issue with document conversion on a library doc/template add|
 | LIBRARY_DOCUMENT_MODIFIED                          |When a library doc or template is modified.|
-| LIBRARY_DOCUMENT_ALL                               |ALL possible doc library events|
-| MEGASIGN_ALL                                       |      |
-| MEGASIGN_CREATED                                   |      |
-| MEGASIGN_RECALLED                                  |      |
-| MEGASIGN_SHARED                                    |      |
-| WIDGET_ALL                                         |      |
-| WIDGET_AUTO_CANCELLED_CONVERSION_PROBLEM           |      |
-| WIDGET_CREATED                                     |      |
-| WIDGET_DISABLED                                    |      |
-| WIDGET_ENABLED                                     |      |
-| WIDGET_MODIFIED                                    |      |
-| WIDGET_SHARED                                      |      |
+| LIBRARY_DOCUMENT_ALL                               |ALL possible doc library events.|
+| MEGASIGN_ALL                                       | ALL possible [Megasign](https://helpx.adobe.com/sign/using/mega-sign.html) Events. |
+| MEGASIGN_CREATED                                   | When a Megasign is created. |
+| MEGASIGN_RECALLED                                  | When a Megasign is cancelled. (recalled by the sender) |
+| MEGASIGN_SHARED                                    | When a Megasign is shared with another user in the account |
+| WIDGET_ALL                                         | ALL possible widget (Web Form) events. |
+| WIDGET_AUTO_CANCELLED_CONVERSION_PROBLEM           | There can sometimes be issues converting the uploaded file that cause the Web Form (widget) to fail. This is not always caught during the send action and can happen after Web Form creation. |
+| WIDGET_CREATED                                     | When a Web Form is created. |
+| WIDGET_DISABLED                                    | When a Web Form is disabled. |
+| WIDGET_ENABLED                                     | When a Web Form is enabled. |
+| WIDGET_MODIFIED                                    | When a Web Form is modified. |
+| WIDGET_SHARED                                      | When a Web Form is shared. |
