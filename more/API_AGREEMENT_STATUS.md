@@ -1,4 +1,4 @@
-## API Related agreement "Statuses", [Recipient Statuses](./API_AGREEMENT_STATUS.md#status-related-to-recipients), [AGREEMENT EVENTS](./API_AGREEMENT_STATUS.md#agreement-events) and [Webhook Events](./API_AGREEMENT_STATUS.md#webhook-events)
+## API Related agreement "Statuses", [Recipient Statuses](./API_AGREEMENT_STATUS.md#status-related-to-recipients), [Agreement Events](./API_AGREEMENT_STATUS.md#agreement-events) and [Webhook Events](./API_AGREEMENT_STATUS.md#webhook-events)
 
 Most states relate to specific Adobe Sign ["roles"](https://helpx.adobe.com/sign/using/set-up-signer-approver-roles.html)
 PDF can be found [here](https://documentcloud.adobe.com/link/track?uri=urn%3Aaaid%3Ascds%3AUS%3A4eec32fd-527e-4133-9666-08fb35286d7e).
