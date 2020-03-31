@@ -6,7 +6,7 @@
 *  [REST API V6 Documentation - “Try-it" page](http://view.adobe.com/viewer/5c917dbaf7794d1557d55ee4?iid=5c7f0294659e9305b6b43c03)
 *  [Webhook APIs](https://www.adobe.io/apis/documentcloud/sign/docs.html#!adobedocs/adobe-sign/master/events.md)
 *  [For REST based integration testing and development, I highly recommend postman](http://view.adobe.com/viewer/5c917dbaf7794d1557d55ee4?iid=5c87ee0081171765cf741595)
-*  [REST V6 POSTMAN Collection](http://view.adobe.com/viewer/5c917dbaf7794d1557d55ee4?iid=5c917250659e931c7960d001)
+*  [REST V6 POSTMAN Collection](http://view.adobe.com/viewer/5e83a9e93f65f67239174c44)
 *  [Use an Integration Key during development and testing](https://github.com/skaboy71/AdobeSign-resources/blob/master/more/oAuth_vs_integration_key.md)
 *  [API Related Agreement statuses and events](https://github.com/skaboy71/AdobeSign-resources/blob/master/more/API_AGREEMENT_STATUS.md#api-related-agreement-statuses-and-events)
 ####
