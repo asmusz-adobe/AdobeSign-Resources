@@ -6,13 +6,13 @@ What are these [cookies](https://www.whoishostingthis.com/resources/cookies-guid
 
 #### What's a "3rd party" cookie?
 
-[From: 'Browser Cookies: What Are They & Why Should You Care?']:https://www.whoishostingthis.com/resources/cookies-guide/#types
-
 > "**Third-party cookies**" are cookies added by a domain that is not the domain you are currently visiting. The most common use of third-party cookies is to track users who click on advertisements and associate them with the referring domain.
 >
 > For example, when you click on an ad on a website, a third-party cookie is used to associate your traffic with the site where the ad appeared.
 >
 > While cookies are a necessary part of the modern web, they can also pose a considerable risk of invasion of privacy as well as a security risk to the websites that use them."
+>
+> [From: 'Browser Cookies: What Are They & Why Should You Care?']:https://www.whoishostingthis.com/resources/cookies-guide/#types
 
 ---
 
