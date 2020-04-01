@@ -12,7 +12,7 @@ What are these [cookies](https://www.whoishostingthis.com/resources/cookies-guid
 >
 > While cookies are a necessary part of the modern web, they can also pose a considerable risk of invasion of privacy as well as a security risk to the websites that use them."
 >
-> [From: 'Browser Cookies: What Are They & Why Should You Care?']:https://www.whoishostingthis.com/resources/cookies-guide/#types
+> From: 'Browser Cookies: What Are They & Why Should You Care?' ~ https://www.whoishostingthis.com/resources/cookies-guide/#types
 
 ---
 
