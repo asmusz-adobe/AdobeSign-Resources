@@ -46,4 +46,4 @@
 *  [Adobe Sign oAuth docs](https://secure.echosign.com/public/static/oauthDoc.jsp)
 *  [oAuth process for users](https://secure.echosign.com/public/oauthDemo)
 *  [Javascript Event Listeners](https://www.adobe.io/apis/documentcloud/sign/docs.html#!adobedocs/adobe-sign/master/events.md)
-*  [Migration from SOAP to REST](
+*  [Migration from SOAP to REST](https://www.adobe.io/apis/documentcloud/sign/docs.html#!adobedocs/adobe-sign/master/migrating_from_soap.md)
