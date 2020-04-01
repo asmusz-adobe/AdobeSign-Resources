@@ -1,11 +1,8 @@
 ### Adobe Sign Developer Resources
 
-####
-
 #### API
 
 * [Sign API Overview - Adobe.io](http://view.adobe.com/viewer/5c917dbaf7794d1557d55ee4?iid=5c7ef6e9a2e3a92323b1c507)
-
 * [Sign up for your own free Developer Account](http://view.adobe.com/viewer/5c917dbaf7794d1557d55ee4?iid=5c7ef734659e930551b4d4dd)
 * [REST API V6 Documentation - “Try-it" page](http://view.adobe.com/viewer/5c917dbaf7794d1557d55ee4?iid=5c7f0294659e9305b6b43c03)
 * [Webhook APIs](https://www.adobe.io/apis/documentcloud/sign/docs.html#!adobedocs/adobe-sign/master/events.md)
@@ -15,8 +12,6 @@
 * [API Related Agreement statuses and events](https://github.com/skaboy71/AdobeSign-resources/blob/master/more/API_AGREEMENT_STATUS.md#api-related-agreement-statuses-and-events)
 * [Embedding - iFrames, Modals and "3rd Party cookies"](https://github.com/skaboy71/AdobeSign-resources/blob/master/more/iFrame_vs_windowOpen.md)
 
-  ####
-
 #### Devkits
 
 *  [Main Adobe Sign page on GitHub](https://github.com/adobe-sign)
@@ -24,14 +19,12 @@
 *  [SDK NodeJs - GitHub](http://view.adobe.com/viewer/5c917dbaf7794d1557d55ee4?iid=5c884a68f7794d70c70be22a)
 *  [SDK C# C-Sharp - GitHub](http://view.adobe.com/viewer/5c9bc5aec7143350d2e2398c?iid=5cdc4ce666bbaa750d8ef717)
 *  [SDK NodeJS - NPM Site](http://view.adobe.com/viewer/5c917dbaf7794d1557d55ee4?iid=5c88482281171765a075a2a4)
-   ####
 
 #### Webhooks
 
 *  [Webhooks Documentation - helpx](http://view.adobe.com/viewer/5c917dbaf7794d1557d55ee4?iid=5c7f5714f7794d05ccb10dad)
 *  [Webhooks Documentation - adobe.io](http://view.adobe.com/viewer/5c917dbaf7794d1557d55ee4?iid=5c7f57b1c714330b5981b281)
 *  [Example webhook JSON files](http://view.adobe.com/viewer/5c917dbaf7794d1557d55ee4?iid=5c7f597366bbaa5d79c3886e)
-   ####
 
 #### Event Listeners and oAuth
 
