@@ -2,6 +2,8 @@
 
 Look at the URL after you are logged in.
 
+Here is an example:
+
 secure(or something else).**na2**.adobesign(or echosign).com/public/login
 
 Depending on the "shard"(**na1, na2, na3, eu1,** etc.) which shows in the URL after login to Adobe Sign, your data is in a datacenter in the below locations:
@@ -28,4 +30,3 @@ Depending on the "shard"(**na1, na2, na3, eu1,** etc.) which shows in the URL af
 ### India
 
 *  IN1 - Amazon Data Services India - Mumbai
-
