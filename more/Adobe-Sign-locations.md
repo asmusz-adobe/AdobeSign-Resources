@@ -1,3 +1,11 @@
+## Where is my data?
+
+Look at the URL after you are logged in.
+
+https://secure.___na2___.echosign.com/public/login
+
+Depending on the "shard" which shows in the URL after login to Adobe Sign, your data is in a datacenter in the below locations:
+
 ### North America
 
 *  NA1 - Amazon Web Services - Ashburn Virginia
