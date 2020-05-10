@@ -1,4 +1,4 @@
-## Adobe Sign Webhook failure retry info
+## Adobe Sign Webhook failure - retry info
 
 If a webhook "reciever" stops responding for any reason, the webhoook will start the "retry" process and will continue to retry for up to 72 hours, while "doubling" the interval betweek retries starting with 30 seconds.  
 
