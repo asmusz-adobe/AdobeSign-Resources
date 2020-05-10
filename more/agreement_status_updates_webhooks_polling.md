@@ -1,4 +1,4 @@
-# Adobe Sign - Agreement Status Updates and  Webhooks for Partner Platforms
+# Adobe Sign - Agreement Status Updates and  Webhooks for Partner and Customer Integrated Platforms
 
 While *we have webhooks that can be created by customers in the web UI "Front End"*, **we do not recommend that partners use this method when setting up their platform integrations.** We recommend partners set up webhooks via API as **"resource" or per-agreement webhooks**. There are a few reasons for this.
 
@@ -13,6 +13,3 @@ While *we have webhooks that can be created by customers in the web UI "Front En
 ### Update Agreement Status "manual" option
 
 An additional "best practice" is to add an "update agreement status" button or trigger in your interface which "polls" Adobe Sign for a single agreement so that if there is an issue happening, the user can manually update a particularly critical agreement to get their status and/or a copy of the completed agreement immediately. We do this in all the integrations that we (Adobe Sign) build.
-
-
-
