@@ -11,6 +11,7 @@
 * [Use an Integration Key during development and testing](https://github.com/skaboy71/AdobeSign-resources/blob/master/more/oAuth_vs_integration_key.md)
 * [API Related Agreement statuses and events](https://github.com/skaboy71/AdobeSign-resources/blob/master/more/API_AGREEMENT_STATUS.md#api-related-agreement-statuses-and-events)
 * [Embedding - iFrames, Modals and "3rd Party cookies"(hint- use javascript window.open instead)](https://github.com/skaboy71/AdobeSign-resources/blob/master/more/iFrame_vs_windowOpen.md)
+* [Agreement Status Updates - Webhooks and Polling](https://github.com/skaboy71/AdobeSign-resources/blob/master/more/agreement_status_updates_webhooks_polling.md)
 
 #### Devkits
 
