@@ -16,7 +16,7 @@ At this point that webhook will be "disabled".
 
 Web hooks can be checked to determine whether they are enabled or disabled via API if monitoring is desired using the [GET /webhooks/{webhook ID}](https://secure.echosign.com/public/docs/restapi/v6#!/webhooks/getWebhookInfo) call, but this does not tell you if the webhook is failing but has not yet been disabled.
 
-To make sure your system is always getting updates and to ensure the best possible reliability pleas see the following:
+To make sure your system is always getting updates and to ensure the best possible reliability please see the following:
 
 [Webhooks for Partner and Customer Integrated Platforms](https://github.com/skaboy71/AdobeSign-resources/blob/master/more/agreement_status_updates_webhooks_polling.md)
 
