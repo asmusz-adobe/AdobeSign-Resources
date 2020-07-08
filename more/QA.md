@@ -2,7 +2,7 @@
 
 *  ["Official" Adobe Sign FAQ?](https://helpx.adobe.com/sign/faq.html)
 
-*  [Where are your data centers?](https://github.com/skaboy71/AdobeSign-resources/blob/master/more/Adobe-Sign-locations.md)
+*  [Where are your data centers?](https://github.com/asmusz-adobe/AdobeSign-Resources/blob/master/more/Adobe-Sign-locations.md)
 
 *  [What is an Electronic Signature?](https://github.com/skaboy71/AdobeSign-resources/blob/master/Answers/e-sig-definition.md)
 
