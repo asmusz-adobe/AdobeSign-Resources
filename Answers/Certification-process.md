@@ -1,5 +1,9 @@
 ## Partner Application "Certification" 
 
+Before your integration is certified, you can still test it with other accounts representing what would typically be a customer's account by changing a setting under Account > Account Settings > Security Settings > "Allow Uncertified partner applications to access data from this account".
+
+![B8jquX](https://cdn.jsdelivr.net/gh/asmusz-adobe/AdobeSign-Resources@master/more/images/B8jquX.png)
+
 There are some things you should be aware of and follow through on as part of your dev process.
 
 Your platform will normally be required to allow instance users(typically an admin) to connect their own Adobe Sign accounts (whether provisioned for them by you as a partner or acquired by them direct from Adobe) to your platform through [oAuth](https://secure.echosign.com/public/static/oauthDoc.jsp).  This is usually __required__ so you will need to have developed and set things up on your side to account for this.
@@ -20,4 +24,6 @@ During the security review and "Certification" process, we will do a few things.
 
 *  Once all concerns have been addressed, your app will be certified and you will be able to make it available to your customers for general use.  If your integration functionality, or permissions realted to your app need to change in the future, the application will need to be re-certified.
 
+##### Post "certification"
 
+Once your integration is certified, you can work with our Partner Success Managers to collaborate on co-marketing. We can also list your integration on the Adobe Exchange - Document Cloud page.  Best practice on this would be to make sure we have collateral or pointers to documentation on the partner website for how the integration works, the range of functionality included and how it looked on the integrated app/platform.  The cerifiication will allow customers to use the integration without need to change their security settings to all "uncertified app data access".
