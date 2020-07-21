@@ -4,7 +4,7 @@
 
 *  [Where are your data centers?](https://github.com/asmusz-adobe/AdobeSign-Resources/blob/master/more/Adobe-Sign-locations.md)
 
-*  [What is an Electronic Signature?](https://github.com/skaboy71/AdobeSign-resources/blob/master/Answers/e-sig-definition.md)
+*  [What is an Electronic Signature?](https://github.com/asmusz-adobe/AdobeSign-resources/blob/master/Answers/e-sig-definition.md)
 
 *  [What is a "digital signature"?](https://acrobat.adobe.com/us/en/sign/capabilities/digital-signatures-faq.html)
 
@@ -12,7 +12,7 @@
 
 *  [What is a "cloud based" digital signature?](https://acrobat.adobe.com/content/dam/doc-cloud/en/pdfs/adobe_cloud_signature_solution_brief_ue.pdf)
 
-*  [Why do you require an Email Address for Adobe Sign?](https://github.com/skaboy71/AdobeSign-resources/blob/master/Answers/Why_Email_address%3F.md)
+*  [Why do you require an Email Address for Adobe Sign?](https://github.com/asmusz-adobe/AdobeSign-resources/blob/master/Answers/Why_Email_address%3F.md)
 
 *  [What additional 2nd Factor Signer Authentication can be used with Adobe Sign?](https://helpx.adobe.com/sign/using/signer-identity-authentication-methods.html)
 
@@ -32,8 +32,8 @@
 
 *  [What are the applicable eSignature laws in xxxx (Country)?](https://acrobat.adobe.com/content/dam/doc-cloud/en/pdfs/document-cloud-global-guide-electronic-signature-law-ue.pdf)
 
-*  [Sometimes an email does not "bounce" but we find out later (perhaps days) that it was a "bad"(mis-spelling etc.) address. Doesn't Adobe Sign let us know if the email address is bad?](https://github.com/skaboy71/AdobeSign-resources/blob/master/Answers/Email-Deliverability.md#sometimes-an-email-does-not-bounce-but-we-find-out-later-perhaps-days-that-it-was-a-badmis-spelling-etc-address-doesnt-adobe-sign-let-us-know-if-the-email-address-is-bad)
+*  [Sometimes an email does not "bounce" but we find out later (perhaps days) that it was a "bad"(mis-spelling etc.) address. Doesn't Adobe Sign let us know if the email address is bad?](https://github.com/asmusz-adobe/AdobeSign-resources/blob/master/Answers/Email-Deliverability.md#sometimes-an-email-does-not-bounce-but-we-find-out-later-perhaps-days-that-it-was-a-badmis-spelling-etc-address-doesnt-adobe-sign-let-us-know-if-the-email-address-is-bad)
 
-*  [Why can't I add some email addresses to my Adobe Sign account?](https://google.com)
+*  [Why can't I add some email addresses to my Adobe Sign account?](https://github.com/asmusz-adobe/AdobeSign-Resources/blob/master/Answers/cant-add-email-to-account.md)
 
 
