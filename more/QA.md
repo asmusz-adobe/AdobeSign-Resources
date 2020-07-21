@@ -34,4 +34,6 @@
 
 *  [Sometimes an email does not "bounce" but we find out later (perhaps days) that it was a "bad"(mis-spelling etc.) address. Doesn't Adobe Sign let us know if the email address is bad?](https://github.com/skaboy71/AdobeSign-resources/blob/master/Answers/Email-Deliverability.md#sometimes-an-email-does-not-bounce-but-we-find-out-later-perhaps-days-that-it-was-a-badmis-spelling-etc-address-doesnt-adobe-sign-let-us-know-if-the-email-address-is-bad)
 
+*  [Why can't I add some email addresses to my Adobe Sign account?](https://google.com)
+
 
