@@ -18,6 +18,6 @@ Now … some/most laws pertaining to e-signature add some additional things, whi
 
 *  A documented “chain of events” that shows the steps of the process of obtaining said signatures.
 
-*  Additional “Identity Verification” to help prove that the persons involved were “who they said they were”.
+*  Additional [“Identity Verification”](https://helpx.adobe.com/sign/using/signer-identity-authentication-methods.html) to help prove that the persons involved were “who they said they were”.
 
 Even when talking about government regulations such as [CFR 21 part 11](https://helpx.adobe.com/sign/using/21-cfr-validation-pack.html) (FDA regulations for “life sciences” and drug trials) there are additional things to consider but they comprise a list of additional “processes” related to the points above. 
