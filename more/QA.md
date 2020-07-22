@@ -28,7 +28,7 @@
 
 *  [What does the "architecture" and security/compliance look like with Adobe Sign?](https://www.adobe.com/content/dam/acom/en/security/pdfs/adobe-sign-technical-overview-ue.pdf)
 
-*  [Can I use Adobe Sign for my CFR 21 part 11 related processes?](https://helpx.adobe.com/sign/kb/Is-Adobe-Sign-21-CFR-Part-11-Compliant.html)
+*  [Can I use Adobe Sign for my CFR 21 part 11 related processes?](https://helpx.adobe.com/sign/using/21-cfr-validation-pack.html)
 
 *  [What are the applicable eSignature laws in xxxx (Country)?](https://acrobat.adobe.com/content/dam/doc-cloud/en/pdfs/document-cloud-global-guide-electronic-signature-law-ue.pdf)
 
