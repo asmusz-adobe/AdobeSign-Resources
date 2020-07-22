@@ -14,7 +14,7 @@ That’s pretty much it!  See, I told you it's simple! 🙂
 
 Now … some/most laws pertaining to e-signature add some additional things, which mainly consist of these additional safeguards:
 
-*  A way to show that the “agreement” between parties has not been changed in any material way from the “original”.
+*  A way to show that the “agreement” between parties [has not been changed in any material way from the “original”](https://helpx.adobe.com/sign/using/income-verification-express-services-compliance.html#TamperProofSeal).
 
 *  A documented “chain of events” that shows the steps of the process of obtaining said signatures.
 
