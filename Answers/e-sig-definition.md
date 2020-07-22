@@ -1,6 +1,6 @@
 ####  What is it?
 
-Of course you can read the Wikipedia definition [here](https://en.wikipedia.org/wiki/Electronic_signature), but I’m going to attempt to make it a bit more conceptual and simple. There are many legal descriptions under many different national, and international laws but I’m not a lawyer and that’s really boring stuff anyway.
+Of course you can read the Wikipedia definition [here](https://en.wikipedia.org/wiki/Electronic_signature), but I’m going to attempt to make it a bit more conceptual and simple. There are many legal descriptions under many different national, and international laws but I’m not a lawyer and that’s really [boring stuff anyway](https://acrobat.adobe.com/content/dam/doc-cloud/en/pdfs/document-cloud-global-guide-electronic-signature-law-ue.pdf).
 
 Without going too far into “the weeds” on this, lets talk about how they work, or what they do.
 
