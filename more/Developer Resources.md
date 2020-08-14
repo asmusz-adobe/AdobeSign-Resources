@@ -5,7 +5,7 @@
 * [Sign API Overview - Adobe.io](https://www.adobe.io/apis/documentcloud/sign/docs.html)
 * [Sign up for your own free Developer Account](https://acrobat.adobe.com/us/en/sign/developer-form.html)
 * [REST API V6 Documentation - “Try-it" page](https://secure.echosign.com/public/docs/restapi/v6)
-* [Webhook APIs](https://www.adobe.io/apis/documentcloud/sign/docs.html#!adobedocs/adobe-sign/master/events.md)
+* [Webhook APIs](https://www.adobe.io/apis/documentcloud/sign/docs.html#!adobedocs/adobe-sign/master/webhooks.md#managing-webhooks-and-subscriptions-webhook-apis)
 * [For REST based integration testing and development, I highly recommend postman](https://www.postman.com/downloads/)
 * [REST V6 POSTMAN Collection](https://documenter.getpostman.com/view/14752/SzYXXei3?version=latest)
 * [Use an Integration Key during development and testing](https://github.com/asmusz-adobe/AdobeSign-Resources/blob/master/more/oAuth_vs_integration_key.md)
