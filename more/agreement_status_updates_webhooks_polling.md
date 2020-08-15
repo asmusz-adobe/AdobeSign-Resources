@@ -8,7 +8,7 @@ While *we have webhooks that can be created by customers in the web UI "Front En
 
 ### Polling as "backup" update method
 
-*I't is also recommended to set up some sort of "polling" mechanism* and some way to re-create these "per-agreement" web-hooks if the creation step is has failed and the agreements are still in some "non-terminal" state.  It's also recommended to configure some monitoring+alerting on your side to let you know if the webhook creation process is failing.  If you're using the "per-agreement" process, your system will recognise that the issue has happened right away instead of needing to wait till customers complain about their agreement statuses not staying "current".  It would also be a good idea to automatically start the "polling" process for those agreements when the webhook creation failure is detected.
+*It is also recommended to set up some sort of "polling" mechanism* and some way to re-create these "per-agreement" web-hooks if the creation step is has failed and the agreements are still in some "non-terminal" state.  It's also recommended to configure some monitoring+alerting on your side to let you know if the webhook creation process is failing.  If you're using the "per-agreement" process, your system will recognise that the issue has happened right away instead of needing to wait till customers complain about their agreement statuses not staying "current".  It would also be a good idea to automatically start the "polling" process for those agreements when the webhook creation failure is detected.
 
 ### Update Agreement Status "manual" option
 
