@@ -1,5 +1,7 @@
 ## Where is my data?
 
+          -- Info here was added in August of 2020
+
 Look at the URL after you are logged in.
 
 Here is an example:
