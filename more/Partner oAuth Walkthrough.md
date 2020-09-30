@@ -101,7 +101,7 @@ The URL with those extra bits will look something like this:
 https://your-oauthinteraction-server/your-oAuth-Page.html?code=CBNCKBAAHBCAABAApvoU1TLVOj_GuGynhtExjJbQNOmst9KP&api_access_point=https%3A%2F%2Fapi.na1.echosign.com%2F&state=uhuhygtf576534&web_access_point=https%3A%2F%2Fsecure.na1.echosign.com%2F
 ```
 
-What are all those extra bit about?
+What are all those extra bits about?
 
 code=CBNCKBAAHBCAABAApvoU1TLVOj_GuGynhtExjJbQNOmst9KP — This is the code your system will use to make the actual API call to get those tokens. You need to use this fairly immediately as it’s only valid for 5 minutes.
 
