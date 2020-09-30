@@ -97,8 +97,9 @@ And next, they’ll be “redirected” to …… wait for it …… Yes!!     T
 In the URL will be a number of things your system will need to get the refresh and access tokens that your app/platform has to have for making calls against the API.
 
 The URL with those extra bits will look something like this:
-
->https://your-oauthinteraction-server/your-oAuth-Page.html?code=CBNCKBAAHBCAABAApvoU1TLVOj_GuGynhtExjJbQNOmst9KP&api_access_point=https%3A%2F%2Fapi.na1.echosign.com%2F&state=uhuhygtf576534&web_access_point=https%3A%2F%2Fsecure.na1.echosign.com%2F
+```
+https://your-oauthinteraction-server/your-oAuth-Page.html?code=CBNCKBAAHBCAABAApvoU1TLVOj_GuGynhtExjJbQNOmst9KP&api_access_point=https%3A%2F%2Fapi.na1.echosign.com%2F&state=uhuhygtf576534&web_access_point=https%3A%2F%2Fsecure.na1.echosign.com%2F
+```
 
 What are all those extra bit about?
 
@@ -124,17 +125,18 @@ Yup, you still have some work.
 As mentioned the params have all been passed to your page though on the URL so we can start with grabbing them.
 
 in our example:
-
->https://your-oauthinteraction-server/your-oAuth-Page.html?code=CBNCKBAAHBCAABAApvoU1TLVOj_GuGynhtExjJbQNOmst9KP&api_access_point=https%3A%2F%2Fapi.na1.echosign.com%2F&state=uhuhygtf576534&web_access_point=https%3A%2F%2Fsecure.na1.echosign.com%2F
+```
+https://your-oauthinteraction-server/your-oAuth-Page.html?code=CBNCKBAAHBCAABAApvoU1TLVOj_GuGynhtExjJbQNOmst9KP&api_access_point=https%3A%2F%2Fapi.na1.echosign.com%2F&state=uhuhygtf576534&web_access_point=https%3A%2F%2Fsecure.na1.echosign.com%2F
+```
 
 We have:
+```
+code = CBNCKBAAHBCAABAApvoU1TLVOj_GuGynhtExjJbQNOmst9KP
 
->code = CBNCKBAAHBCAABAApvoU1TLVOj_GuGynhtExjJbQNOmst9KP
->
->api_access_point = https://api.na1.echosign.com/
->
->state = uhuhygtf576534
+api_access_point = https://api.na1.echosign.com/
 
+state = uhuhygtf576534
+```
 In addition to these you will need the Client/Application ID and “secret” from the partner app oAuth config page in your developer account:
 
 ![](https://tva1.sinaimg.cn/large/006tNbRwgy1gbmljhlvmoj30l808ogol.jpg)	
@@ -157,16 +159,15 @@ In POSTMAN (A great tool I highly recommend) this call would look something like
 ![](https://tva1.sinaimg.cn/large/006tNbRwgy1gbmletjo3pj30z00gq0wd.jpg)	
 
 The “raw” call looks like:
+```
+POST /oauth/token HTTP/1.1
+Host: secure.na1.echosign.com
+Content-Type: application/x-www-form-urlencoded
+Cache-Control: no-cache
 
->POST /oauth/token HTTP/1.1
->Host: secure.na1.echosign.com
->Content-Type: application/x-www-form-urlencoded
->Cache-Control: no-cache
->
->code=CBNCKBAAHBCAABAAOhqFxpG1VorkQqCpTcsWQZrdlPAe6p4v&client_id=CBJCHBCAABAA-bAGKL5EGoAVa0uQnFR_k--pCMoA589W&client_secret=HCLtG15GhovoBD2HBlPJ7su5FJ7tMkHd&redirect_uri=https%3A%2F%2Faaronsmusz.com%2Foauth%2FoauthSuccess_app222.php&grant_type=authorization_code
-
+code=CBNCKBAAHBCAABAAOhqFxpG1VorkQqCpTcsWQZrdlPAe6p4v&client_id=CBJCHBCAABAA-bAGKL5EGoAVa0uQnFR_k--pCMoA589W&client_secret=HCLtG15GhovoBD2HBlPJ7su5FJ7tMkHd&redirect_uri=https%3A%2F%2Faaronsmusz.com%2Foauth%2FoauthSuccess_app222.php&grant_type=authorization_code
+```
 The JSON response to this call will look something like this:
-
 ```JSON
 {
     "access_token": "3AAABLblqZhDuw8mHJD5axQYRFV36l4U1A3csEcBxYcf9tr6OGtXghh8mGFNbEm9zulVHavW99-yDijJONs3syC49qiAtX-FA",
@@ -175,8 +176,6 @@ The JSON response to this call will look something like this:
     "expires_in": 3600
 }
 ```
-
-
 Ok !!! We finally have a token ! Woooooooot !!
 
 Now we can find this Customer’s instance using the state ID and store the tokens.
