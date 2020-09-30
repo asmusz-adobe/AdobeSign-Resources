@@ -158,12 +158,12 @@ In POSTMAN (A great tool I highly recommend) this call would look something like
 
 The “raw” call looks like:
 
->POST /oauth/token HTTP/1.1
->Host: secure.na1.echosign.com
->Content-Type: application/x-www-form-urlencoded
->Cache-Control: no-cache
+```POST /oauth/token HTTP/1.1
+Host: secure.na1.echosign.com
+Content-Type: application/x-www-form-urlencoded
+Cache-Control: no-cache
 
-code=CBNCKBAAHBCAABAAOhqFxpG1VorkQqCpTcsWQZrdlPAe6p4v&client_id=CBJCHBCAABAA-bAGKL5EGoAVa0uQnFR_k--pCMoA589W&client_secret=HCLtG15GhovoBD2HBlPJ7su5FJ7tMkHd&redirect_uri=https%3A%2F%2Faaronsmusz.com%2Foauth%2FoauthSuccess_app222.php&grant_type=authorization_code
+code=CBNCKBAAHBCAABAAOhqFxpG1VorkQqCpTcsWQZrdlPAe6p4v&client_id=CBJCHBCAABAA-bAGKL5EGoAVa0uQnFR_k--pCMoA589W&client_secret=HCLtG15GhovoBD2HBlPJ7su5FJ7tMkHd&redirect_uri=https%3A%2F%2Faaronsmusz.com%2Foauth%2FoauthSuccess_app222.php&grant_type=authorization_code```
 
 The JSON response to this call will look something like this:
 
