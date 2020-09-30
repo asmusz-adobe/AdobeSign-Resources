@@ -167,13 +167,14 @@ The “raw” call looks like:
 
 The JSON response to this call will look something like this:
 
->JSON
->{
->    "access_token": "3AAABLblqZhDuw8mHJD5axQYRFV36l4U1A3csEcBxYcf9tr6OGtXghh8mGFNbEm9zulVHavW99-yDijJONs3syC49qiAtX-FA",
->    "refresh_token": "3AAABLblqZhCxjXUfsx_pz44l8opXqFPXVUUPjr72JJ-uoBMvpo-xMgwiX_j6AUIfbskIaYyC34M*",
->    "token_type": "Bearer",
->    "expires_in": 3600
->}
+```JSON
+{
+    "access_token": "3AAABLblqZhDuw8mHJD5axQYRFV36l4U1A3csEcBxYcf9tr6OGtXghh8mGFNbEm9zulVHavW99-yDijJONs3syC49qiAtX-FA",
+    "refresh_token": "3AAABLblqZhCxjXUfsx_pz44l8opXqFPXVUUPjr72JJ-uoBMvpo-xMgwiX_j6AUIfbskIaYyC34M*",
+    "token_type": "Bearer",
+    "expires_in": 3600
+}
+```
 
 
 Ok !!! We finally have a token ! Woooooooot !!
@@ -191,16 +192,16 @@ But now we need to POST to:
 https://api.na1.echosign.com/oauth/refresh
 
 This call looks like this:
+```
+POST /oauth/refresh HTTP/1.1
+Host: api.na1.echosign.com
+Content-Type: application/x-www-form-urlencoded
+Cache-Control: no-cache
 
->POST /oauth/refresh HTTP/1.1
->Host: api.na1.echosign.com
->Content-Type: application/x-www-form-urlencoded
->Cache-Control: no-cache
->
->refresh_token=3AAABLblqZhCxjXUfsx_pz44l8opXqFPXVUUPjr72JJ-uoBMvpo-xMgwiX_j6AUIfbskIaYyC34M*&client_id=CBJCHBCAABAA-
->
->bAGfU0EGoAVa0uQnFR_k--pCMoA589W&client_secret=HCLtG15GhovoBD2HBlKF4su5FJ7tMkHd&grant_type=refresh_token```
+refresh_token=3AAABLblqZhCxjXUfsx_pz44l8opXqFPXVUUPjr72JJ-uoBMvpo-xMgwiX_j6AUIfbskIaYyC34M*&client_id=CBJCHBCAABAA-
 
+bAGfU0EGoAVa0uQnFR_k--pCMoA589W&client_secret=HCLtG15GhovoBD2HBlKF4su5FJ7tMkHd&grant_type=refresh_token
+```
 Ok ….FYI …. The “refresh” token will also expire but it works a bit differently.
 This token expires after 60 days, but every time you use the “refresh" token to get a new “access" token, you reset the expiration on the “refresh” token to 60 days from that point.  Cool?
 
