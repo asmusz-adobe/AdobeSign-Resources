@@ -35,3 +35,5 @@
 *  [Event Statuses](https://github.com/asmusz-adobe/AdobeSign-Resources/blob/master/more/API_AGREEMENT_STATUS.md)
 *  [Migration from SOAP to REST](https://www.adobe.io/apis/documentcloud/sign/docs.html#!adobedocs/adobe-sign/master/migrating_from_soap.md)
 
+[Find me on "Regular" Skype](https://join.skype.com/invite/rzqKbPCelMgQ)
+
