@@ -7,3 +7,4 @@
 * [Developer Forum - Adobe Sign](https://forums.adobe.com/community/adobesign/api_3rd_party_integration)
 * [Partner Specific Resources](https://github.com/asmusz-adobe/AdobeSign-Resources/blob/master/more/partner_resources.md)
 * [Development related Q n A](https://github.com/asmusz-adobe/AdobeSign-Resources/blob/master/more/DEV_QA.md#development-related-q-n-a)
+* [Integration Guides](https://google.com)
