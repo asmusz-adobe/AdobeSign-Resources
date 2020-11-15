@@ -1,6 +1,6 @@
 ## Where is my data?
 
-          -- Info here was added in August of 2020
+          -- Last updated Nov 15 2020
 
 Look at the URL after you are logged in.
 
@@ -15,6 +15,7 @@ Depending on the "shard"(**na1, na2, na3, eu1,** etc.) which shows in the URL af
 *  NA1 - Amazon Web Services - Ashburn Virginia
 *  NA2 - Amazon Web Services - Portland Oregon
 *  NA3 - MicrosoftS Azure - Ashburn Virginia
+*  NA4 - Amazon Web Services - Boardman Oregon
 
 ### EU Region
 
