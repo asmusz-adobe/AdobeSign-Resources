@@ -15,7 +15,7 @@ Depending on the "shard"(**na1, na2, na3, na4, eu1,** etc.) which shows in the U
 *  NA1 - Amazon Web Services - Ashburn Virginia/Madison Wisconsin
 *  NA2 - Amazon Web Services - Portland/Beaverton Oregon
 *  NA3 - MicrosoftS Azure - Ashburn/Boydton Virginia
-*  NA4 - Amazon Web Services - Boardman Oregon
+*  NA4 - Amazon Web Services - Boardman Oregon/San Diego CA
 
 ### EU Region
 
