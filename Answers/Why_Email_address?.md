@@ -25,6 +25,6 @@ An email address is usually associated to a person, it usually does not change o
 
 *  We could use a physical address but what happens when you move?
 *  We could use phone number but those are re-used quite often.
-*  We don't want to expose things like social security number, drivers license numbers, etc for ID theft and fraud security.
+*  We don't want to expose things like social security number, drivers license numbers, etc due ti ID theft and fraud risks.
 
 While email is not "perfect", it is one of the _best possible_ ways that really makes the most sense given it's properties.
