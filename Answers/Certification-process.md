@@ -2,7 +2,7 @@
 
 Before your integration is certified, you can still test it with other accounts representing what would typically be a customer's account by changing a setting under Account > Account Settings > Security Settings > "Allow Uncertified partner applications to access data from this account".
 
-![B8jquX](https://cdn.jsdelivr.net/gh/asmusz-adobe/AdobeSign-Resources@master/more/images/B8jquX.png)
+![B8jquX](https://raw.githubusercontent.com/skaboy71/images/master/uPic/2bBmBo.png)
 
 There are some things you should be aware of and follow through on as part of your dev process.
 
