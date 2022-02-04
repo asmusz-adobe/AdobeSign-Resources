@@ -31,7 +31,7 @@ Ok … now we can move on to Configuring oAuth for your new Adobe Sign app!
 
 ##### What permissions and access level do you need for your application?
 
-To configure oAuth setting for a partner app you will need to log into the developers account where you created the new partner app.
+To   configure oAuth setting for a partner app you will need to log into the developers account where you created the new partner app.
 
 Find the app, select and click "Configure oAuth for application".
 
