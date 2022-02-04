@@ -1,7 +1,7 @@
 ## When should you use oAuth vs Integration key?
 Generally speaking [oAuth](https://secure.echosign.com/public/static/oauthDoc) is the preferred API authentication method for both partner (used by multiple Adobe Sign customers) and customer (used by a single Adobe Sign account) integrations.
 
-Whyuse oAuth? Because it's more secure. At least once per hour, you are changing the string used to authenticate to our API.  The oAuth refresh token you get back from the initial request->response process is valid for 60 days but then every time you use that refresh token to get a new access token, you are pushing that expiration back out to 60 days from that point in time.
+Why use oAuth? Because it's more secure. At least once per hour, you are changing the string used to authenticate to our API.  The oAuth refresh token you get back from the initial request->response process is valid for 60 days but then every time you use that refresh token to get a new access token, you are pushing that expiration back out to 60 days from that point in time.
 
 For partner applications, oAuth is __required__ for your "production app" because your app/integration will be used by many customers and we need to have a way to centrally disable the integration if some major security vulnerability is found. All that said however, during your developement work while you are testing api calls and processes, it is usually easier to use an integration key. 
 
