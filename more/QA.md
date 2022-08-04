@@ -1,6 +1,6 @@
 ## Commonly asked Questions and Answers
 
-*  ["Official" Adobe Sign FAQ?](https://helpx.adobe.com/sign/faq.html)
+*  ["Official" Adobe Acrobat Sign FAQ?](https://helpx.adobe.com/sign/faq.html)
 
 *  [Where are your data centers?](https://github.com/asmusz-adobe/AdobeSign-Resources/blob/master/more/Adobe-Sign-locations.md)
 
@@ -10,11 +10,11 @@
 
 *  [What is the "Audit Trail", what is it for and how do signer's access it?](https://helpx.adobe.com/sign/using/audit-reports-transaction-history.html)
 
-*  [What is a "cloud based" digital signature?](https://acrobat.adobe.com/content/dam/doc-cloud/en/pdfs/adobe_cloud_signature_solution_brief_ue.pdf)
+*  [What is a "cloud based" digital signature?](https://cloudsignatureconsortium.org)
 
-*  [Why do you require an Email Address for Adobe Sign?](https://github.com/asmusz-adobe/AdobeSign-resources/blob/master/Answers/Why_Email_address%3F.md)
+*  [Why do you require an Email Address for Adobe Acrobat Sign?](https://github.com/asmusz-adobe/AdobeSign-resources/blob/master/Answers/Why_Email_address%3F.md)
 
-*  [What additional 2nd Factor Signer Authentication can be used with Adobe Sign?](https://helpx.adobe.com/sign/using/signer-identity-authentication-methods.html)
+*  [What additional 2nd Factor Signer Authentication can be used with Adobe Acrobat Sign?](https://helpx.adobe.com/sign/using/signer-identity-authentication-methods.html)
 
 *  [Can you accept Credit Card payments with Adobe Sign?](https://helpx.adobe.com/sign/using/collect-online-payments.html)
 
