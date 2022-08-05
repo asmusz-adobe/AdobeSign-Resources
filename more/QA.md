@@ -24,7 +24,7 @@
 
 *  [Can I use Adobe Sign with SharePoint 365?](https://helpx.adobe.com/sign/using/microsoft-sharepoint-installation-guide.html)
 
-*  [Is there a "pre-built" integration for xxxxxxx(your app or platform here)](https://www.adobeexchange.com/documentcloud.html)
+*  [Is there a "pre-built" integration for xxxxxxx(your app or platform here)](https://exchange.adobe.com/apps/browse/?page=1&product=SIGN)
 
 *  [What does the "architecture" and security/compliance look like with Adobe Sign?](https://www.adobe.com/content/dam/acom/en/security/pdfs/adobe-sign-technical-overview-ue.pdf)
 
